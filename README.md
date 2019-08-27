@@ -1,5 +1,7 @@
 # Shell-Python-Advanced
 
-Good resources to learn Python3: [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/), [Python Map Plotting Galleries](https://mp.weixin.qq.com/s/VLRAwsNNdX7Yvnxt-JVHFA).
+This repository will contain notes that I further advanced my capabilities of writing Python and Shell scripts.
 
-Good resources to learn Shell: [The Linux Command Line](http://billie66.github.io/TLCL/book/index.html)
+### Useful links
+[The Linux Command Line](http://billie66.github.io/TLCL/book/index.html), [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/), [Python Map Plotting Galleries](https://mp.weixin.qq.com/s/VLRAwsNNdX7Yvnxt-JVHFA)
+
