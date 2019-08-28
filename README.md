@@ -12,3 +12,7 @@ This repository will contain notes that I further enhance my capabilities of wri
 
 ### Other good resources
 1. [Cartopy Plotting Galleries](https://mp.weixin.qq.com/s/VLRAwsNNdX7Yvnxt-JVHFA)
+
+### Advanced topics of Shell and Python
+1. Python: locals(), *arg, **kwarg
+2. Shell: du -h --max-depth=2 /home/
