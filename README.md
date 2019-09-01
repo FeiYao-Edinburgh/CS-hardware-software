@@ -12,6 +12,7 @@ This repository will contain notes that I further enhance my capabilities of wri
 
 ### Other good resources
 1. [Cartopy Plotting Galleries](https://mp.weixin.qq.com/s/VLRAwsNNdX7Yvnxt-JVHFA)
+2. [Cartopy Plotting Galleries](https://stackoverflow.com/questions/55598249/showing-alaska-and-hawaii-in-cartopy-map)
 
 ### Advanced topics of Shell and Python
 1. Python: locals(), *arg, **kwarg
