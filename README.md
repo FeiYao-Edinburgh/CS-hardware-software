@@ -15,5 +15,5 @@ This repository will contain notes that I further enhance my capabilities of wri
 2. [Cartopy Plotting Galleries](https://stackoverflow.com/questions/55598249/showing-alaska-and-hawaii-in-cartopy-map)
 
 ### Advanced topics of Shell and Python
-1. Python: locals(), *arg, **kwarg
+1. Python: locals(), \*arg, \*\*kwarg, and etc. in [Python Tips](https://book.pythontips.com/en/latest/#)
 2. Shell: du -h --max-depth=2 /home/
