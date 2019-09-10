@@ -15,17 +15,11 @@ This repository will contain notes that I further enhance my capabilities of wri
 2. [Cartopy Plotting Galleries](https://stackoverflow.com/questions/55598249/showing-alaska-and-hawaii-in-cartopy-map)
 
 ### Advanced topics of Shell and Python
-1. Python: locals(), \*arg, \*\*kwarg, sys.and etc. in [Python Tips](https://book.pythontips.com/en/latest/#)
-2. Shell: du -h --max-depth=2 /home/
+Python: locals(), \*arg, \*\*kwarg, and etc. in [Python Tips](https://book.pythontips.com/en/latest/#); \_\_file\_\_, \_\_doc\_\_, \_self, and etc. in [Python module slides](https://github.com/FeiYao-Edinburgh/Shell-Python-Advanced/blob/master/Slides/Python%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80%EF%BC%8820140317%EF%BC%89.pdf).
 
-1. **`sys.stdout.write()` vs. `print()`**. While `print(obj)` has become a function in Python 3.x, it calls `sys.stdout.write(obj+'\n')` for the most of the time. I personally regard `sys.stdout.write()` something like `printf()` function in C language. With `sys.stdout.write()` you can achieve more like displaying progress as the following.
-```
-import time,sys
-for i in range(1,100,1):
-    sys.stdout.write("\r{0}{1:.2f}%".format("|"*i,i))
-#     Or simple use sys.stdout.write(f"\r{i*'|'}{i:0.2f}%") for the above.
-#     '\r' will send the cursor to the beginning of the line, where it can overwrite the existing text, which also means the later text should have more characters than the former ones.
-    sys.stdout.flush() # For better effect.
-    time.sleep(0.01)
-# Output will like: |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||99.00%
-```
+1. **`sys.stdout.write()` vs. `print()`**. While `print(obj)` has become a function in Python 3.x, it calls `sys.stdout.write(obj+'\n')` for the most of the time. I personally regard `sys.stdout.write()` something like `printf()` function in C language. With `sys.stdout.write()` you can achieve more like [displaying progress](https://github.com/FeiYao-Edinburgh/Shell-Python-Advanced/blob/master/Scripts/sys_stdout_write.py).
+2. Determine the location of a package by printing the package's \_\_file\_\_ attribute, e.g. `import minisom; print(minisom.__file__)`, then we can change the original codes if applicable.
+3. In Python 3, taking quotient and remainder has become `//` and `%`. `/` will always return numbers with decimals.
+4. `try/except/else/finally` in Python. This [link](https://www.cnblogs.com/windlazio/archive/2013/01/24/2874417.html) greatly explains the logical sequence of `try/except/else/finally`. We can also use `raise` keyword to raise an error mandatorily so as to achieve some of the effects that we want. Note that `raise` must be followed by an Exception class, for convenience, we can just use Exception. See [my script]() for illustration.
+5. `with`
+
