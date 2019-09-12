@@ -1,4 +1,4 @@
-This repository will contain notes that I further enhance my capabilities of writing Python and Shell scripts.
+This repository will mainly contain notes that I further enhance my programming capabilities using Python and Shell.
 
 ### Resources for absolutely beginners
 1. [The Unix Shell](https://swcarpentry.github.io/shell-novice/)
