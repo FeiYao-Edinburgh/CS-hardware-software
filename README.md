@@ -11,8 +11,8 @@ This repository will mainly contain notes that I further enhance my programming 
 2. [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/)
 
 ### Other good resources
-1. [Cartopy Plotting Galleries](https://mp.weixin.qq.com/s/VLRAwsNNdX7Yvnxt-JVHFA)
-2. [Cartopy Plotting Galleries](https://stackoverflow.com/questions/55598249/showing-alaska-and-hawaii-in-cartopy-map)
+1. [Cartopy Plotting Galleries I](https://mp.weixin.qq.com/s/VLRAwsNNdX7Yvnxt-JVHFA)
+2. [Cartopy Plotting Galleries II](https://stackoverflow.com/questions/55598249/showing-alaska-and-hawaii-in-cartopy-map)
 
 ### Advanced topics of Shell and Python
 Python: locals(), \*arg, \*\*kwarg, and etc. in [Python Tips](https://book.pythontips.com/en/latest/#); \_\_file\_\_, \_\_doc\_\_, \_self, and etc. in [Python module slides](https://github.com/FeiYao-Edinburgh/Shell-Python-Advanced/blob/master/Slides/Python%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80%EF%BC%8820140317%EF%BC%89.pdf).
