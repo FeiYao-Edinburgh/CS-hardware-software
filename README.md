@@ -10,7 +10,7 @@ This repository will mainly contain notes that I further enhance my programming 
 1. [The Linux Command Line](http://billie66.github.io/TLCL/book/index.html)
 2. [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/)
 
-### Using supercomputer such as Eddie
+### Taking advantage of supercomputers such as Eddie
 1. [Introduction to Eddie](https://www.wiki.ed.ac.uk/display/ResearchServices/Introduction+to+Eddie)
 2. 
 
