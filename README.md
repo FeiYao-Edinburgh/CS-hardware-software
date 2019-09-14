@@ -11,7 +11,7 @@ This repository will mainly contain notes that I further enhance my programming 
 2. [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/)
 
 ### Taking advantage of supercomputers such as Eddie
-0. [All computer related course in Edinburgh](https://www.wiki.ed.ac.uk/display/ResearchServices/Courses)
+0. All computer related course at [UoE](https://www.wiki.ed.ac.uk/display/ResearchServices/Courses) and [EPCC](https://www.epcc.ed.ac.uk/online-learning)
 1. [Introduction to Eddie](https://www.wiki.ed.ac.uk/display/ResearchServices/Introduction+to+Eddie)
 2. 
 
