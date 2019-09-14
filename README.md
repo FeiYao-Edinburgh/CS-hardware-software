@@ -10,6 +10,10 @@ This repository will mainly contain notes that I further enhance my programming 
 1. [The Linux Command Line](http://billie66.github.io/TLCL/book/index.html)
 2. [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/)
 
+### Using supercomputer such as Eddie
+1. [Introduction to Eddie](https://www.wiki.ed.ac.uk/display/ResearchServices/Introduction+to+Eddie)
+2. 
+
 ### Other good resources
 1. [Cartopy Plotting Galleries I](https://mp.weixin.qq.com/s/VLRAwsNNdX7Yvnxt-JVHFA)
 2. [Cartopy Plotting Galleries II](https://stackoverflow.com/questions/55598249/showing-alaska-and-hawaii-in-cartopy-map)
