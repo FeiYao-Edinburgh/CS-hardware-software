@@ -2,6 +2,7 @@ This repository will mainly contain notes that I further enhance my programming 
 
 ### Resources for absolutely beginners
 1. [The Unix Shell](https://swcarpentry.github.io/shell-novice/)
+2. [Extra Unix Shell Material](http://swcarpentry.github.io/shell-extras/)
 2. [Version Control with Git](https://swcarpentry.github.io/git-novice/)
 3. [Programming with Python](https://swcarpentry.github.io/python-novice-inflammation/), [Plotting and Programming in Python](http://swcarpentry.github.io/python-novice-gapminder/)
 4. [Automation and Make](http://swcarpentry.github.io/make-novice/)
