@@ -30,7 +30,7 @@ This repository will mainly contain notes that I further enhance my programming 
 ### Advanced topics of Shell
 1. When you cannot terminate a process by `Ctrl-C`, you can use `Ctrl-Z` to stop the command first, then use `jobs` to obtain its jobspec, finally use `kill -9 %jobspec` to kill it.
 2. Short-cuts in Terminal to make life easier: Ctrl-left/right arrows to move between words quickly. Middle mouse button for quick copy and paste.
-3. Short-cuts in Vim to make life easier: visual code, v+left/right/up/down arrows to select a part of contexts, then d for cut or y for copy, finally p for paste. Ctrl/Shift-left/right arrows to move between words quickly.
+3. Short-cuts in Vim to make life easier: Ctrl/Shift-left/right arrows to move between words quickly. Visual code, v+left/right/up/down arrows to select a part of contexts, or Shift-v to select the whole line, then d for cut or y for copy, finally p for paste.
 
 Do in a later time: locals(), \*arg, \*\*kwarg, and etc. in [Python Tips](https://book.pythontips.com/en/latest/#); \_\_file\_\_, \_\_doc\_\_, \_self, and etc. in [Python module slides](https://github.com/FeiYao-Edinburgh/Shell-Python-Advanced/blob/master/Slides/Python%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80%EF%BC%8820140317%EF%BC%89.pdf).
 
