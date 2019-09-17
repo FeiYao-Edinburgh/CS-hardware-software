@@ -14,7 +14,7 @@ This repository will mainly contain notes that I further enhance my programming 
 ### Taking advantage of supercomputers such as Eddie
 0. All computer related course at [UoE](https://www.wiki.ed.ac.uk/display/ResearchServices/Courses) and [EPCC](https://www.epcc.ed.ac.uk/online-learning)
 1. [Introduction to Eddie](https://www.wiki.ed.ac.uk/display/ResearchServices/Introduction+to+Eddie)
-2. 
+2. [Using LOTUS in JASMIN](https://help.jasmin.ac.uk/article/110-lotus-overview)
 
 ### Other good resources
 1. [Cartopy Plotting Galleries I](https://mp.weixin.qq.com/s/VLRAwsNNdX7Yvnxt-JVHFA)
