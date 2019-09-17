@@ -30,14 +30,14 @@ print("Hello World")
 ```
 As an alternative, you can also add one line of code to the first line of the scripts shown above, make the scripts executable by `chmod u+x helloworld.sh` and `chmod u+x helloworld.py`, and run them directly by `./helloworld.sh` and `./helloworld.py`.
 ```
-/usr/bin/bash
+#!/usr/bin/bash
 echo "Hello World"
 ```
 ```
 #!/exports/csce/datastore/geos/users/s1855106/miniconda/base/envs/geo/bin/python
 print("Hello World")
 ```
-The `#!` character sequence is, in fact, a special construct called a shebang. The shebang is used to tell the system the name of the interpreter that should be used to execute the script that follows. You can use `which bash` or `which python` to show the location of your interpreters. For each language, you might have several interpreters at the same time. For example you might also have another `bash` in `/usr/bin/bash`.
+The `#!` character sequence is, in fact, a special construct called a shebang. The shebang is used to tell the system the name of the interpreter that should be used to execute the script that follows. You can use `which bash` or `which python` to show the location of your interpreters. For each language, you might have several interpreters at the same time. For example you might also have another `bash` in `/bin/bash`.
 
 ### Advanced topics of Python
 1. **`sys.stdout.write()` vs. `print()`**. While `print(obj)` has become a function in Python 3.x, it calls `sys.stdout.write(obj+'\n')` for the most of the time. I personally regard `sys.stdout.write()` something like `printf()` function in C language. With `sys.stdout.write()` you can achieve more like [displaying progress](https://github.com/FeiYao-Edinburgh/Shell-Python-Advanced/blob/master/Scripts/sys_stdout_write.py).
