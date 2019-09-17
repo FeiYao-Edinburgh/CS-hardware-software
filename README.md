@@ -50,8 +50,7 @@ The `#!` character sequence is, in fact, a special construct called a shebang. T
 1. When you cannot terminate a process by `Ctrl-C`, you can use `Ctrl-Z` to stop the command first, then use `jobs` to obtain its jobspec, finally use `kill -9 %jobspec` to kill it.
 2. Short-cuts in Terminal to make life easier: Ctrl-left/right arrows to move between words quickly. Middle mouse button for quick copy and paste.
 3. Short-cuts in Vim to make life easier: Ctrl/Shift-left/right arrows to move between words quickly. Visual code, v+left/right/up/down arrows to select a part of contexts, or Shift-v to select the whole line, then d for cut or y for copy, finally p for paste.
-4. Always avoid using spaces in filenames because it will make it such complicated to cite them by using double or single quotes.
-5. Double and single quotes functions differently when doing expansions, considering the following.
+4. Always avoid using spaces in filenames because it will make it such complicated to cite them by using double or single quotes. Double and single quotes functions differently when doing expansions, considering the following.
 ```
 echo text ~/*.txt {a,b} $(echo foo) $((2+2)) $USER # All will be expanded.
 echo "text ~/*.txt {a,b} $(echo foo) $((2+2)) $USER" # $(echo foo) $((2+2)) $USER will still be expanded.
