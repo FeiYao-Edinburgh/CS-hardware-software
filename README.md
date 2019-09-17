@@ -60,7 +60,7 @@ Nevertheless, if we assign a double or single quoted string with `*` to a variab
 ```
 a='*.csv' # This is similar to a=*.csv or a="*.csv", and hence $a is exactly *.csv.
 echo $a # *.csv will be expanded and printed.
-echo "$a" # Double quotes do not work for $ and hence it first becomes "*.csv". However, double quotes work for * and hence *.csv printed eventually.
+echo "$a" # Double quotes do not work for $ and hence it first becomes "*.csv". However, double quotes do work for * and hence *.csv printed eventually.
 echo '$a' # Single quotes do not work for $ and hence $a printed directly.
 ```
 
