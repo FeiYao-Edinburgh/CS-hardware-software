@@ -1,8 +1,7 @@
 This repository will mainly contain notes that I further enhance my programming capabilities using Python and Shell. Meanwhile, it also contains good resources for absolutely beginners that I will also expplore over and over again.
 
 ### Software carpentry resources for absolutely beginners
-1. [The Unix Shell](https://swcarpentry.github.io/shell-novice/) (Finding Things to be completed in a later time)
-2. [Extra Unix Shell Material](http://swcarpentry.github.io/shell-extras/)
+1. [The Unix Shell](https://swcarpentry.github.io/shell-novice/) (Finding Things to be completed in a later time), [Extra Unix Shell Material](http://swcarpentry.github.io/shell-extras/)
 2. [Version Control with Git](https://swcarpentry.github.io/git-novice/)
 3. [Programming with Python](https://swcarpentry.github.io/python-novice-inflammation/), [Plotting and Programming in Python](http://swcarpentry.github.io/python-novice-gapminder/)
 4. [Automation and Make](http://swcarpentry.github.io/make-novice/)
