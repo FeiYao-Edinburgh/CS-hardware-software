@@ -20,6 +20,26 @@ This repository will mainly contain notes that I further enhance my programming 
 1. [Cartopy Plotting Galleries I](https://mp.weixin.qq.com/s/VLRAwsNNdX7Yvnxt-JVHFA)
 2. [Cartopy Plotting Galleries II](https://stackoverflow.com/questions/55598249/showing-alaska-and-hawaii-in-cartopy-map)
 
+### Excuting a script, either Shell or Python
+Supposing you have the following two *hello world* scripts named *helloworld.sh* and *helloworld.py* written in Shell and Python, respectively, you have two ways of excuting them. For convenience the first method, namely `bash helloworld.sh` and `python helloworld.py`, is recommended as long as the `bash` and `python` interpreters are contained in `$PATH`.
+```
+echo "Hello World"
+```
+```
+print("Hello World")
+```
+As an alternative, you can also add one line of code to the scripts shown above, make the scripts executable by `chmod u+x helloworld.sh` and `chmod u+x helloworld.py`, and run them directly by `./helloworld.sh` and `./helloworld.py`.
+```
+#!/bin/bash
+echo "Hello World"
+```
+```
+#!/exports/csce/datastore/geos/users/s1855106/miniconda/base/envs/geo/bin/python
+print("Hello World")
+```
+The `#!` character sequence is, in fact, a special construct called a shebang. The shebang is used to tell the system the name of the interpreter that should be used to execute the script that follows. You can use `which bash` or `which python` to show the location of your interpreters. For each language, you might have several interpreters at the same time.
+
+Then you can run them by typing `bash `
 ### Advanced topics of Python
 1. **`sys.stdout.write()` vs. `print()`**. While `print(obj)` has become a function in Python 3.x, it calls `sys.stdout.write(obj+'\n')` for the most of the time. I personally regard `sys.stdout.write()` something like `printf()` function in C language. With `sys.stdout.write()` you can achieve more like [displaying progress](https://github.com/FeiYao-Edinburgh/Shell-Python-Advanced/blob/master/Scripts/sys_stdout_write.py).
 2. Determine the location of a package by printing the package's \_\_file\_\_ attribute, e.g. `import minisom; print(minisom.__file__)`, then we can change the original codes if applicable.
