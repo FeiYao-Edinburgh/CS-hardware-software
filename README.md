@@ -21,14 +21,14 @@ This repository will mainly contain notes that I further enhance my programming 
 2. [Cartopy Plotting Galleries II](https://stackoverflow.com/questions/55598249/showing-alaska-and-hawaii-in-cartopy-map)
 
 ### Excuting a script, either Shell or Python
-Supposing you have the following two *hello world* scripts named *helloworld.sh* and *helloworld.py* written in Shell and Python, respectively, you have two ways of excuting them. For convenience the first method, namely `bash helloworld.sh` or `python helloworld.py`, is recommended as long as the `bash` and `python` interpreters are contained in `$PATH`.
+Supposing you have the following two *hello world* scripts named *helloworld.sh* and *helloworld.py* written in Shell and Python, respectively, you have two ways of excuting them. For convenience the first method, namely `bash helloworld.sh` or `python helloworld.py`, is recommended as long as the paths of `bash` and `python` interpreters are contained in `$PATH`.
 ```
 echo "Hello World"
 ```
 ```
 print("Hello World")
 ```
-As an alternative, you can also add one line of code to the scripts shown above, make the scripts executable by `chmod u+x helloworld.sh` and `chmod u+x helloworld.py`, and run them directly by `./helloworld.sh` and `./helloworld.py`.
+As an alternative, you can also add one line of code to the first line of the scripts shown above, make the scripts executable by `chmod u+x helloworld.sh` and `chmod u+x helloworld.py`, and run them directly by `./helloworld.sh` and `./helloworld.py`.
 ```
 /usr/bin/bash
 echo "Hello World"
@@ -53,5 +53,5 @@ The `#!` character sequence is, in fact, a special construct called a shebang. T
 
 Do in a later time: locals(), \*arg, \*\*kwarg, and etc. in [Python Tips](https://book.pythontips.com/en/latest/#); \_\_file\_\_, \_\_doc\_\_, \_self, and etc. in [Python module slides](https://github.com/FeiYao-Edinburgh/Shell-Python-Advanced/blob/master/Slides/Python%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80%EF%BC%8820140317%EF%BC%89.pdf).
 
--Fei (12/9/2019 @Edinburgh)
+-Fei (17/9/2019 @Edinburgh)
 
