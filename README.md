@@ -1,4 +1,4 @@
-This repository will mainly contain notes that I further enhance my programming capabilities using Python and Shell.
+This repository will mainly contain notes that I further enhance my programming capabilities using Python and Shell. Meanwhile, it also contains good resources for absolutely beginners that I will also expplore over and over again.
 
 ### Software carpentry resources for absolutely beginners
 1. [The Unix Shell](https://swcarpentry.github.io/shell-novice/)
