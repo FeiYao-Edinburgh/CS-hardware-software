@@ -8,7 +8,7 @@ This repository will mainly contain notes that I further enhance my programming 
 4. [Automation and Make](http://swcarpentry.github.io/make-novice/)
 
 ### Highly recommended resources that deserves a must go
-1. [The Linux Command Line](http://billie66.github.io/TLCL/book/index.html)
+1. [The Linux Command Line](http://billie66.github.io/TLCL/book/index.html) (Chapter 8 is extremely important!)
 2. [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/)
 
 ### Taking advantage of supercomputers such as Eddie
