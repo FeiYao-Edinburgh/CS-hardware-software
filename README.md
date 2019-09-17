@@ -63,6 +63,7 @@ echo $a # *.csv will be expanded and printed.
 echo "$a" # Double quotes do not work for $ and hence it first becomes "*.csv". However, double quotes do work for * and hence *.csv printed eventually.
 echo '$a' # Single quotes do not work for $ and hence $a printed directly.
 ```
+5. Following 4, read more about variables.
 
 Do in a later time: locals(), \*arg, \*\*kwarg, and etc. in [Python Tips](https://book.pythontips.com/en/latest/#); \_\_file\_\_, \_\_doc\_\_, \_self, and etc. in [Python module slides](https://github.com/FeiYao-Edinburgh/Shell-Python-Advanced/blob/master/Slides/Python%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80%EF%BC%8820140317%EF%BC%89.pdf).
 
