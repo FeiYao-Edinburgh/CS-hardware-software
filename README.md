@@ -20,6 +20,7 @@ This repository will mainly contain notes that I further enhance my programming 
 2. [Cartopy Plotting Galleries II](https://stackoverflow.com/questions/55598249/showing-alaska-and-hawaii-in-cartopy-map)
 3. [Syncing your fork to the original repository via the browser](https://github.com/KirstieJane/STEMMRoleModels/wiki/Syncing-your-fork-to-the-original-repository-via-the-browser)
 4. [Good explanation of Socket, Core, Thread, CPU(s), and etc.](https://stackoverflow.com/questions/40163095/what-is-socket-core-threads-cpu) and [how to calculate them](https://unix.stackexchange.com/questions/218074/how-to-know-number-of-cores-of-a-system-in-linux).
+5. [Markdown Basic Syntax](https://www.markdownguide.org/basic-syntax/)
 
 ### Computer Science Courses to follow during spare time
 1. [Operating System](https://www.youtube.com/playlist?list=PLqhmiqnOBz99PQA66JtEzF86fFbkfMfvL)
