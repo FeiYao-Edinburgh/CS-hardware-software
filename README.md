@@ -23,7 +23,7 @@ This repository will mainly contain notes that I further enhance my programming 
 5. [Markdown Basic Syntax](https://www.markdownguide.org/basic-syntax/)
 
 ### Computer Science Courses to follow during spare time
-1. [Operating System](https://www.youtube.com/playlist?list=PLqhmiqnOBz99PQA66JtEzF86fFbkfMfvL)
+1. [Operating System](https://www.youtube.com/playlist?list=PLqhmiqnOBz99PQA66JtEzF86fFbkfMfvL) (1.4/2.1)
 2. [Computer Component Principal](https://www.youtube.com/playlist?list=PLe68gYG2zUeVOEPqea_qGKsuRiTtL21FO)
 
 ### Excuting a script, either Shell or Python
