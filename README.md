@@ -23,8 +23,8 @@ This repository will mainly contain notes that I further enhance my programming 
 5. [Markdown Basic Syntax](https://www.markdownguide.org/basic-syntax/)
 
 ### Computer Science Courses to follow during spare time
-1. [Operating System](https://www.youtube.com/playlist?list=PLqhmiqnOBz99PQA66JtEzF86fFbkfMfvL) (1.4/2.1)
-2. [Computer Component Principal](https://www.youtube.com/playlist?list=PLe68gYG2zUeVOEPqea_qGKsuRiTtL21FO)
+1. [Computer Organization and Design](https://www.youtube.com/playlist?list=PLe68gYG2zUeVOEPqea_qGKsuRiTtL21FO) (0101/0102)
+2. [Operating System](https://www.youtube.com/playlist?list=PLqhmiqnOBz99PQA66JtEzF86fFbkfMfvL) (1.4/2.1)
 
 ### Excuting a script, either Shell or Python
 Supposing you have the following two *hello world* scripts named *helloworld.sh* and *helloworld.py* written in Shell and Python, respectively, you have two ways of excuting them. For convenience the first method, namely `bash helloworld.sh` or `python helloworld.py`, is recommended as long as the paths of `bash` and `python` interpreters are contained in `$PATH`.
