@@ -52,7 +52,7 @@ echo "9.45 / 2.327" | bc
 echo "9.45 / 2.327" | bc -l
 ```
 
-Do in a later time: locals(), \*arg, \*\*kwarg, and etc. in [Python Tips](https://book.pythontips.com/en/latest/#); \_\_file\_\_, \_\_doc\_\_, \_self, and etc. in [Python module slides](https://github.com/FeiYao-Edinburgh/Shell-Python-Advanced/blob/master/Slides/Python%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80%EF%BC%8820140317%EF%BC%89.pdf).
+
 
 -Fei (17/9/2019 @Edinburgh)
 
