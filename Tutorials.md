@@ -23,3 +23,5 @@
 ### Computer Science Courses to follow during spare time
 1. [Computer Organization and Design](https://www.youtube.com/playlist?list=PLe68gYG2zUeVOEPqea_qGKsuRiTtL21FO) (0101/0102)
 2. [Operating System](https://www.youtube.com/playlist?list=PLqhmiqnOBz99PQA66JtEzF86fFbkfMfvL) (1.4/2.1)
+
+Do in a later time: locals(), \*arg, \*\*kwarg, and etc. in [Python Tips](https://book.pythontips.com/en/latest/#); \_\_file\_\_, \_\_doc\_\_, \_self, and etc. in [Python module slides](https://github.com/FeiYao-Edinburgh/Shell-Python-Advanced/blob/master/Slides/Python%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80%EF%BC%8820140317%EF%BC%89.pdf).
