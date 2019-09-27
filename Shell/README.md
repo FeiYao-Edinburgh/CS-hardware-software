@@ -8,8 +8,8 @@
 4. [Markdown Basic Syntax](https://www.markdownguide.org/basic-syntax/)
 #### Video resources for Linux
 5. [linuxcast](https://www.youtube.com/playlist?list=PLrrWFMyom0IocKsc1ukKFxOljEg7IT_W3)
-#### VERY good Linux book to follow
+#### VERY good Unix book to follow
 6. [The Linux Command Line](http://billie66.github.io/TLCL/book/index.html)
-#### Other good articles
+#### Other good articles solving specific problems
 7. [Syncing your fork to the original repository via the browser](https://github.com/KirstieJane/STEMMRoleModels/wiki/Syncing-your-fork-to-the-original-repository-via-the-browser)
 
