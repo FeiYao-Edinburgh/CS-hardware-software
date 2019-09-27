@@ -1,7 +1,7 @@
 # Shell
 
 ### Good resources to follow
-##### Software carpentry and similar resources for absolutely beginners
+#### Software carpentry and similar resources for absolutely beginners
 1. [The Unix Shell](https://swcarpentry.github.io/shell-novice/) (7 to be completed in a later time)
 2. [Extra Unix Shell Material](http://swcarpentry.github.io/shell-extras/)
 3. [Version Control with Git](https://swcarpentry.github.io/git-novice/)
@@ -13,4 +13,3 @@
 #### Other good articles solving specific problems
 7. [Syncing your fork to the original repository via the browser](https://github.com/KirstieJane/STEMMRoleModels/wiki/Syncing-your-fork-to-the-original-repository-via-the-browser)
 
-###
