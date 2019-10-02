@@ -13,3 +13,14 @@
 #### Other good articles solving specific problems
 7. [Syncing your fork to the original repository via the browser](https://github.com/KirstieJane/STEMMRoleModels/wiki/Syncing-your-fork-to-the-original-repository-via-the-browser)
 
+#### Executing a Shell script.
+Supposing your `helloworld.sh` script has the following code.
+```
+echo "Hello World"
+```
+You can easily run it by typing `bash helloworld.sh`. Alternatively, you can add the following code to the first line of the script and run it as `chmod u+x helloworld.sh; ./helloworld.sh`.
+```
+#!/usr/bin/bash
+echo "Hello World"
+```
+The `#!` character sequence is, in fact, a special construct called a shebang. The shebang is used to tell the system the name of the interpreter that should be used to execute the script that follows. You can use `which bash` to show the location of your interpreters. Bear in mind that there will always be another bash in `/bin/bash`.
