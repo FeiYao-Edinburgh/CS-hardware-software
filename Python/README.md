@@ -8,7 +8,7 @@
 5. [Cartopy Plotting Galleries I](https://mp.weixin.qq.com/s/VLRAwsNNdX7Yvnxt-JVHFA)
 6. [Cartopy Plotting Galleries II](https://stackoverflow.com/questions/55598249/showing-alaska-and-hawaii-in-cartopy-map)
 
-### Executing a Python script.
+### Executing a Python script
 Supposing your `helloworld.py` script has the following code.
 ```
 print("Hello World")
