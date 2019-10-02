@@ -1,4 +1,1 @@
-This repository mainly contain notes that I further enhance my programming capabilities including Shell, Python, Fortran, Perl, and etc.
-
-- [Python](https://github.com/FeiYao-Edinburgh/CS-hardware-software/tree/master/Python)
-- Fortran
+This repository mainly contain notes that I further enhance my programming capabilities including Shell, Python, Fortran, Perl, and etc. This repository will also contain some notes on computer hardware knowledge, which is surely beneficial for deeply understanding the essence of programs.
