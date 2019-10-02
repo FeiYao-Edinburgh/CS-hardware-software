@@ -1,5 +1,2 @@
-# Prevent Python/Practice
-Python/ArcPy/Practice
-
-# Prevent ArcPy PPT slides
-Python/ArcPy/*.pptx
+# Prevent the whole ArcPy dir
+ArcPy
