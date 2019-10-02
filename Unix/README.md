@@ -1,4 +1,4 @@
-# Shell
+# Unix
 
 ### Good resources to follow
 1. [The Unix Shell](https://swcarpentry.github.io/shell-novice/) (7 to be completed in a later time)
