@@ -3,3 +3,7 @@ ArcPy
 
 # Prevent PyPI as they have their own git repo
 PyPI
+
+# Prevent *.pdf and *.pptx under Math dir
+Math/*.pptx
+Math/*.pdf
