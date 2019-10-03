@@ -1,2 +1,5 @@
 # Prevent the whole ArcPy dir
 ArcPy
+
+# Prevent PyPI as they have their own git repo
+PyPI
