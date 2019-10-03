@@ -7,6 +7,7 @@
 6. Formatting is a means of converting coded values into characters which can be read on a screen (output) or typed in from a keyboard (input). Note that for An, padding rules are different for input and output and for Fw.d and Ew.d, only w takes effect in input. Check the PPT slide for more clear illustration of these rules. (***Still do not understand p.14 components...***)
 7. Two occurrences of the delimiter inside a string produces one occurrence on output. Using apostophe and quotation is more convenient, comparing `"He said ""Fortran is interesting."""` is equavalent to `'He said "Fortran is interesting."'`.
 8. Defining a string in Fortran is not that convenient since it is a necessity to speficy the length of the string but p.58 tells that we can use `len()` to obtain the length of the string.
+  - This problem can be better solved by using deferred-length strings described in page 20 of Modern Fortran.
 9. Continuing 8, when displaying strings in screen, we can always use fmt='(a)' to avoid specifying the length of the string, say `write(unit=6,fmt='(a)',advance='no') 'Please type in your number: '`, where `advance='no'` make your type follow the string instead of appearing in a new line.
 10. unit=0,5,6 are reserved for specific use, i.e., standard error, output, and input.
 11. We can even use write() to modify the value of a string variable, see following:
