@@ -1,0 +1,2 @@
+- [LaTex for Beginners](https://www.ed.ac.uk/information-services/help-consultancy/is-skills/catalogue/digital-creation/latex)
+- [Overleaf Documentation](https://www.overleaf.com/learn)
