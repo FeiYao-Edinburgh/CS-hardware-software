@@ -5,5 +5,4 @@ ArcPy
 PyPI
 
 # Prevent *.pdf and *.pptx under Math dir
-Math/*.pptx
-Math/*.pdf
+Math/Book/
