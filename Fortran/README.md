@@ -8,7 +8,7 @@ To compile a Fortran program, `gfortran my_prog.f90 -o my_prog` or `gfortran -o 
 When it invloves module compilation, two ways can be used.
 1. First compile the module file using `gfortran -c my_module.f90`, where `-c` means compile only. This will generate two files named `my_module.o` and `my_module.mod`. Then compile the main program using `gfortran -o my_prog my_prog.f90 my_module.o`.
 2. Put the codes of `my_module.f90` and `my_prog.f90` in one file but keep those from `my_module.f90` first. Compile the combined file using `gfortran -o my_module_prog my_module_prog.f90` or `gfortran my_module_prog.f90 -o my_module_prog`.
-3. Later check Chapter 5 of [Introduction to Modern Fortran for the Earth System Sciences](https://link.springer.com/book/10.1007/978-3-642-37009-0).
+3. Later check Chapter 5 of [Introduction to Modern Fortran for the Earth System Sciences](https://link.springer.com/book/10.1007/978-3-642-37009-0) and [how to compile GC from source code directory](http://wiki.seas.harvard.edu/geos-chem/index.php/Compiling_GEOS-Chem#Compiling_in_the_top-level_code_directory).
 
 In Practical Exercise 5, I used both methods for Question 1 (Compiling Simple_Stats.f90 produced simple_stats.mod and Simple_Stats.o; compiling encapsulation.f90 with Simple_Stats.o produced encapsulation; compiling Simple_Stats_User.f90 with Simple_Stats.o produced Simple_Stats_User. Compiling Simple_Stats_User_Combined.f90 produced Simple_Stats_User_Combined) and method 2 for the remaining questions.
 
