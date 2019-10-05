@@ -1,4 +1,4 @@
-### Fortran Learning Notes (Python comparison and errata somewhere)
+### Fortran Learning Notes (Python comparison somewhere)
 1. REALs are stored approxiamtely in Fortran. Therefore, to determine whether real number A equals or does not equal real number B, we should use `abs(A-B)<ϵ` instead of `A==B` or `A/=B`, where `ϵ` is set to a suitable small number.
 2. Names in Fortran must start with letters and be less than 31 characters. Lower case letters are equivalent to upper case letters.
 3. Scalar character constants can assume their length from the associated literal (LEN=\*) only if the attribute parameter is present (i.e. `character(len=*),parameter :: son='bart'`). This is called assumed-length strings described in p.19 in Modern Fortran.
