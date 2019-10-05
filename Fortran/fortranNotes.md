@@ -24,6 +24,7 @@ end program test
 ! hhhh
 ! haha
 ```
+In fact, this kind of string is actually `Internal Files` as explained in p.35-36 in Modern Fortran.
 12. `read*,` and `print*`, can always be used instead of `read(*,*)` and `write(*,*)` to decrease typing work. The former is a special case of the latter as explained in p.30 in Modern Fortran.
 13. p.17 ***What is the difference between keywords Stop and Exit in Fortran?***
   - Stop will jump out of the whole program while exit is always used within a loop to jump out of it, refer to another example presented in p.46.
