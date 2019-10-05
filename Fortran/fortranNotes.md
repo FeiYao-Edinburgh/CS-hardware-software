@@ -1,14 +1,14 @@
 ### Fortran Learning Notes (Python comparison and errata somewhere)
 1. REALs are stored approxiamtely in Fortran. Therefore, to determine whether real number A equals or does not equal real number B, we should use `abs(A-B)<ϵ` instead of `A==B` or `A/=B`, where `ϵ` is set to a suitable small number.
 2. Names in Fortran must start with letters and be less than 31 characters. Lower case letters are equivalent to upper case letters.
-3. Scalar character constants can assume their length from the associated literal (LEN=\*) only if the attribute parameter is present (i.e. `character(len=*),parameter :: son='bart'`).
+3. Scalar character constants can assume their length from the associated literal (LEN=\*) only if the attribute parameter is present (i.e. `character(len=*),parameter :: son='bart'`). This is called assumed-length strings described in p.19 in Modern Fortran.
 4. Continuation mark in Fortran: ampersand (&); Comment mark in Fortran: exclamation (!). Corresponding marks in Python are backslash (\\) and number sign (#).
 5. // is used to concatenate two characters in Fortran while + or \* is used in Python.
 6. Formatting is a means of converting coded values into characters which can be read on a screen (output) or typed in from a keyboard (input). Note that for An, padding rules are different for input and output and for Fw.d and Ew.d, only w takes effect in input. Check the PPT slide for more clear illustration of these rules. (***Still do not understand p.14 components...***)
 7. Two occurrences of the delimiter inside a string produces one occurrence on output. Using apostophe and quotation is more convenient, comparing `"He said ""Fortran is interesting."""` is equavalent to `'He said "Fortran is interesting."'`.
 8. Defining a string in Fortran is not that convenient since it is a necessity to speficy the length of the string but p.58 tells that we can use `len()` to obtain the length of the string.
   - This problem can be better solved by using deferred-length strings described in page 20 of Modern Fortran.
-9. Continuing 8, when displaying strings in screen, we can always use fmt='(a)' to avoid specifying the length of the string, say `write(unit=6,fmt='(a)',advance='no') 'Please type in your number: '`, where `advance='no'` make your type follow the string instead of appearing in a new line.
+9. Continuing 8, when displaying strings in screen, we can always use fmt='(a)' to avoid specifying the length of the string, say `write(unit=6,fmt='(a)',advance='no') 'Please type in your number: '`, where `advance='no'` make your type follow the string instead of appearing in a new line. Likewise, when we output integers and reals in a format, we can simply specify them as "I0.m" or "f0.d" to let the program assume the minimum length that the number needs!
 10. unit=0,5,6 are reserved for specific use, i.e., standard error, output, and input.
 11. We can even use write() to modify the value of a string variable, see following:
 ```
