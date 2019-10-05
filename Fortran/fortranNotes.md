@@ -50,4 +50,5 @@ end program test
 34. Python use => for renaming module objects imported while Python use as (e.g. use Triangle_Operations, [only:] Space => Area vs. import numpy as np, note that Space and np are the names that you want to use).
 35. Array definitions can be made by `integer, dimension(5) :: data` or `integer :: data(5)`, `integer, dimension(5,4) :: data` or `integer :: data(5,4)`, and etc.
 36. [The maximum single-line length is limited to 132 characters in Fortran standard.](https://stackoverflow.com/questions/44990119/why-is-maximum-single-line-length-limited-to-132-characters-in-fortran-standard)
-37. 
+37. `rewind` is to re-position file cursor at the beginning of the file and hence can avoid end-of-file error when opening the file again, see examples in p.35 in Modern Fortran.
+38. 
