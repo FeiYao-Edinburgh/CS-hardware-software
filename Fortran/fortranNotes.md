@@ -8,7 +8,7 @@
 7. Two occurrences of the delimiter inside a string produces one occurrence on output. Using apostophe and quotation is more convenient, comparing `"He said ""Fortran is interesting."""` is equavalent to `'He said "Fortran is interesting."'`.
 8. Defining a string in Fortran is not that convenient since it is a necessity to speficy the length of the string but p.58 tells that we can use `len()` to obtain the length of the string.
   - This problem can be better solved by using deferred-length strings described in page 20 of Modern Fortran.
-9. Continuing 8, when displaying strings in screen, we can always use fmt='(a)' to avoid specifying the length of the string, say `write(unit=6,fmt='(a)',advance='no') 'Please type in your number: '`, where `advance='no'` make your type follow the string instead of appearing in a new line. Likewise, when we output integers and reals in a format, we can simply specify them as "I0.m" or "f0.d" to let the program assume the minimum length that the number needs!
+9. Continuing 8, when displaying strings in screen, we can always use fmt='(a)' to avoid specifying the length of the string, say `write(unit=6,fmt='(a)',advance='no') 'Please type in your number: '`, where `advance='no'` make your typing follow the string instead of appearing in a new line (this has been explained in p.36 in Modern Fortran). Likewise, when we output integers and reals in a format, we can simply specify them as "I0.m" or "f0.d" to let the program assume the minimum length that the number needs!
 10. unit=0,5,6 are reserved for specific use, i.e., standard error, output, and input.
 11. We can even use write() to modify the value of a string variable, see following:
 ```
