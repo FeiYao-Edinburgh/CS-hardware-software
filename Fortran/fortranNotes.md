@@ -53,7 +53,7 @@ In fact, this kind of string is actually `Internal Files` as explained in p.35-3
 35. Array definitions can be made by `integer, dimension(5) :: data` or `integer :: data(5)`, `integer, dimension(5,4) :: data` or `integer :: data(5,4)`, and etc.
 36. [The maximum single-line length is limited to 132 characters in Fortran standard.](https://stackoverflow.com/questions/44990119/why-is-maximum-single-line-length-limited-to-132-characters-in-fortran-standard)
 37. `rewind` is to re-position file cursor at the beginning of the file and hence can avoid end-of-file error when opening the file again, see examples in p.35 in Modern Fortran.
-38. I have come across many usgae like `real(4), real*4, rela(kind=4)`. This [answer](https://stackoverflow.com/questions/3170239/fortran-integer4-vs-integer4-vs-integerkind-4) explains them clearly. Here I just want to further explain the range of these parameters. Note that the base number in selected_int_kind() becomes **10**!
+38. I have come across many usgae like `real(4), real*4, rela(kind=4)`. This [answer](https://stackoverflow.com/questions/3170239/fortran-integer4-vs-integer4-vs-integerkind-4) explains them clearly. Here I just want to further explain the range of these parameters. Note that the base number in selected_int_kind() becomes **10**, different from what we previously learnt on bits, bytes, and etc!
 ```
 implicit none
 integer, parameter :: ik9=selected_int_kind(9)
