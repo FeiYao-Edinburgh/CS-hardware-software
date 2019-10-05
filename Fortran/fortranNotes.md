@@ -53,11 +53,11 @@ In fact, this kind of string is actually `Internal Files` as explained in p.35-3
 35. Array definitions can be made by `integer, dimension(5) :: data` or `integer :: data(5)`, `integer, dimension(5,4) :: data` or `integer :: data(5,4)`, and etc.
 36. [The maximum single-line length is limited to 132 characters in Fortran standard.](https://stackoverflow.com/questions/44990119/why-is-maximum-single-line-length-limited-to-132-characters-in-fortran-standard)
 37. `rewind` is to re-position file cursor at the beginning of the file and hence can avoid end-of-file error when opening the file again, see examples in p.35 in Modern Fortran.
-38. I have come across many usgae like `real(4), real*4, rela(kind=4)`. This [answer](https://stackoverflow.com/questions/3170239/fortran-integer4-vs-integer4-vs-integerkind-4) explains them clearly. Here I just want to further explain the range of these parameters.
+38. I have come across many usgae like `real(4), real*4, rela(kind=4)`. This [answer](https://stackoverflow.com/questions/3170239/fortran-integer4-vs-integer4-vs-integerkind-4) explains them clearly. Here I just want to further explain the range of these parameters. Note that the base number in selected_int_kind() becomes **10**!
 ```
 implicit none
 integer, parameter :: ik9=selected_int_kind(9)
-integer(kind=ik9) :: i ! i should be between **10**^-9 and **10**^9. Hence it is extremely convenient to use select_int_kind function to determine value range by ourselves.
+integer(kind=ik9) :: i ! i should be between 10^-9 and 10^9. Hence it is extremely convenient to use select_int_kind function to determine value range by ourselves.
 integer*4::j ! j will have 4 bytes, namely 4*8=32 bits. Reserving the last bit for sign, there are still 31 bits for storing 0 and 1. The largest number should be 2^0+2^1+...+2^30=(2^0-2^30*2)/(1-2)=2^31-1=2147483647. The smallest number is accordingly -2147483647.
 integer(kind=4)::k ! As shown in the link above, this is similar to integer(4)::k and k has 4-bytes and hence should belongs to (-2^31,2^31).
 ```
