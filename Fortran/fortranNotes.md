@@ -77,4 +77,19 @@ print*,inArray
 print*,((inArray(i,j),j=1,cols),i=1,rows)
 write(*,"(cols(x,i0))"),((inArray(i,j),j=1,cols),i=1,rows) ! This is VERY helpful, see in p.58 in Modern Fortran!
 ```
-42. 
+42. `where` for arrays is exactly similar to `if` for scalars, see following.
+```
+# if for scalars
+if (scale conditions) then
+else if
+...
+else
+end if
+# where for arrays
+where (array conditions)
+elsewhere ()
+...
+elsewhere
+end where
+```
+43. 
