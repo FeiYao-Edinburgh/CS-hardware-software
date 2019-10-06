@@ -63,13 +63,17 @@ integer(kind=4)::k ! As shown in the link above, this is similar to integer(4)::
 ```
 39. Previously I saw `real, dimension(10) :: x` and `real :: x(10)`. They are two different ways of declaring an array, see p.49-50 in Modern Fortran.
 40. Array constructor can be achieved by `(/ /)` and `[]`. The latter is introduced in Fortran 2003, said p.52 in Modern Fortran.
-41. When assigning values to arrays, we would like to use array constructors to make our life easier.
+41. When assigning values to arrays, we would like to use implied-do loops in array constructors to make our life easier.
 ```
 integer::x(10),i,y(20),j
 x=(/ (i,i=1,10,1) /)
-! Array constructors can be even more useful for repeating elements shown below.
+! Implied-do loops can be even more useful for repeating elements shown below.
 y=(/ (1,2,i=1,10,1) /) ! y will become (1,2,1,2,...,1,2)
-! Array constructors can even use more than 1 indexVar shown below.
+! Implied-do loops can even use more than 1 indexVar shown below.
 y=(/ ((i*j,i=1,4),j=1,5) /) ! y will become (1,2,3,4,2,4,6,8,...,5,10,15,20)
 y=(/ ((1,2,i=1,2),j=1,5) /) ! Extreme example, y will become (1,2,1,2,...,1,2)
+! Implied-do loops can also be used for outputing array elements in a row-major style.
+print*,inArray
+print*,((inArray(i,j),j=1,cols),i=1,rows)
 ```
+42. 
