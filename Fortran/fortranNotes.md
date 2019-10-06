@@ -61,4 +61,5 @@ integer(kind=ik9) :: i ! i should be between -10^9 and 10^9. Hence it is extreme
 integer*4::j ! j will have 4 bytes, namely 4*8=32 bits. Reserving the last bit for sign, there are still 31 bits for storing 0 and 1. The largest number should be 2^0+2^1+...+2^30=(2^0-2^30*2)/(1-2)=2^31-1=2147483647. The smallest number is accordingly -2147483647.
 integer(kind=4)::k ! As shown in the link above, this is similar to integer(4)::k and k has 4-bytes and hence should belongs to (-2^31,2^31).
 ```
-39. 
+39. Previously I saw `real, dimension(10) :: x` and `real :: x(10)`. They are two different ways of declaring an array, see p.49-50 in Modern Fortran.
+40. 
