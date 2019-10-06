@@ -75,5 +75,6 @@ y=(/ ((1,2,i=1,2),j=1,5) /) ! Extreme example, y will become (1,2,1,2,...,1,2)
 ! Implied-do loops can also be used for outputing array elements in a row-major style.
 print*,inArray
 print*,((inArray(i,j),j=1,cols),i=1,rows)
+write(*,"(cols(x,i0))"),((inArray(i,j),j=1,cols),i=1,rows) ! This is VERY helpful, see in p.58 in Modern Fortran!
 ```
 42. 
