@@ -62,4 +62,5 @@ integer*4::j ! j will have 4 bytes, namely 4*8=32 bits. Reserving the last bit f
 integer(kind=4)::k ! As shown in the link above, this is similar to integer(4)::k and k has 4-bytes and hence should belongs to (-2^31,2^31).
 ```
 39. Previously I saw `real, dimension(10) :: x` and `real :: x(10)`. They are two different ways of declaring an array, see p.49-50 in Modern Fortran.
-40. 
+40. Array constructor can be achieved by `(/ /)` and `[]`. The latter is introduced in Fortran 2003, said p.52 in Modern Fortran.
+41. 
