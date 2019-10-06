@@ -66,7 +66,7 @@ integer(kind=4)::k ! As shown in the link above, this is similar to integer(4)::
 41. When assigning values to arrays, we would like to use array constructors to make our life easier.
 ```
 integer::x(10),i,y(20)
-x=(/ (i,i=1,10,10) /)
+x=(/ (i,i=1,10,1) /)
 ! Array constructor can be even more useful for repeating elements shown below.
-y=(/ (1,2,i=1,10) /) ! y will become (1,2,1,2,...,1,2)
+y=(/ (1,2,i=1,10,1) /) ! y will become (1,2,1,2,...,1,2)
 ```
