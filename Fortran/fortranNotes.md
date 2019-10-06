@@ -63,4 +63,10 @@ integer(kind=4)::k ! As shown in the link above, this is similar to integer(4)::
 ```
 39. Previously I saw `real, dimension(10) :: x` and `real :: x(10)`. They are two different ways of declaring an array, see p.49-50 in Modern Fortran.
 40. Array constructor can be achieved by `(/ /)` and `[]`. The latter is introduced in Fortran 2003, said p.52 in Modern Fortran.
-41. 
+41. When assigning values to arrays, we would like to use array constructors to make our life easier.
+```
+integer::x(10),i,y(20)
+x=(/ (i,i=1,10,10) /)
+! Array constructor can be even more useful for repeating elements shown below.
+y=(/ (1,2,i=1,10) /) ! y will become (1,2,1,2,...,1,2)
+```
