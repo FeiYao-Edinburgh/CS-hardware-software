@@ -93,4 +93,8 @@ elsewhere
 end where
 ```
 43. Constants must be initialized!
-44. 
+44. Because of column-major order employed in Fortran, there might be big difference between do-loops with respect to changing speed of different indices. It is much better with the first indice changing fastest. The following is the result of running Exercise 9 in p.66 in Modern Fortran.
+```
+ Time for expensive loop with the last indice changes fastest =    1440.48291     seconds
+ Time for expensive loop with the first indice changes fastest =    84.8792725     seconds
+```
