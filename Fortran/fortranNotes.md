@@ -112,3 +112,5 @@ end do
 end do
 ! Time for expensive loop with the first indice changes fastest =    84.8792725     seconds
 ```
+45. Learn Fortran pointers [here](https://www.tutorialspoint.com/fortran/fortran_pointers.htm) and [here](http://wiki.seas.harvard.edu/geos-chem/index.php/Derived_type_objects_used_by_GEOS-Chem).
+
