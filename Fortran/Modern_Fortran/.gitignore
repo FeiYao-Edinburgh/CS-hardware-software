@@ -1,0 +1,3 @@
+# Prevent those files not started with Excercise or ended with .f90
+Chapter*/
+!Chapter*/Exercise_*.f90
