@@ -26,7 +26,7 @@ end program test
 ```
 In fact, this kind of string is actually `Internal Files` as explained in p.35-36 in Modern Fortran.
 
-12. `read*,` and `print*`, can always be used instead of `read(*,*)` and `write(*,*)` to decrease typing work. The former is a special case of the latter as explained in p.30 in Modern Fortran.
+12. `read*,` and `print*`, can always be used instead of `read(*,*)` and `write(*,*)` to decrease typing work. The former is a special case of the latter as explained in p.30 in Modern Fortran. A comma is needed or not between these two kinds of uses.
 13. p.17 ***What is the difference between keywords Stop and Exit in Fortran?***
   - Stop will jump out of the whole program while exit is always used within a loop to jump out of it, refer to another example presented in p.46.
 14. When addressing files, always use iostat keyword and close(unit=) timely.
@@ -113,5 +113,6 @@ end do
 ! Time for expensive loop with the first indice changes fastest =    84.8792725     seconds
 ```
 45. Learn Fortran pointers [here](https://www.tutorialspoint.com/fortran/fortran_pointers.htm) and [here](http://wiki.seas.harvard.edu/geos-chem/index.php/Derived_type_objects_used_by_GEOS-Chem). Meanwhile, this [page](http://fortranwiki.org/fortran/show/null) tells that => NULL is to return a deassociated array.
-46. 
-
+46. Two ways of defining an array are accepted illustrated in p.49-50 in Modern Fortran, namely using dimension keyword/attribute or plus array shape to the variable name.
+47. The basic book introduces mostly internal procedures and hence `contains` keyword enables most use of procedures automatically. When using external functions (not subroutines), however, functions need to be declared illustrated in p.75 in Modern Fortran.
+48. 
