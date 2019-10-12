@@ -20,3 +20,5 @@ You can easily run it by typing `bash helloworld.sh` as long as `bash` is in you
 echo "Hello World"
 ```
 The `#!` character sequence is, in fact, a special construct called a shebang. The shebang is used to tell the system the name of the interpreter that should be used to execute the script that follows. You can use `which bash` to show the location of your interpreters. Bear in mind that there will always be another bash in `/bin/bash`.
+
+### gnuplot to be learnt in a later time
