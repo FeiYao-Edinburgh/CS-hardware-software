@@ -115,4 +115,5 @@ end do
 45. Learn Fortran pointers [here](https://www.tutorialspoint.com/fortran/fortran_pointers.htm) and [here](http://wiki.seas.harvard.edu/geos-chem/index.php/Derived_type_objects_used_by_GEOS-Chem). Meanwhile, this [page](http://fortranwiki.org/fortran/show/null) tells that => NULL is to return a deassociated array.
 46. Two ways of defining an array are accepted illustrated in p.49-50 in Modern Fortran, namely using dimension keyword/attribute or plus array shape to the variable name.
 47. The basic book introduces mostly internal procedures and hence `contains` keyword enables most use of procedures automatically. When using external functions (not subroutines), however, functions need to be declared illustrated in p.75 in Modern Fortran.
-48. 
+48. Specification, execution parts needs to placed separately otherwise `Error: Unexpected` kinds of error will be encountered.
+49. 
