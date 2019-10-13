@@ -7,3 +7,5 @@
 - p.53, `forming` -> `performing`?
 - p.66, `this intrisic function` denotes `allocate()`?
 - p.88, would it be great to change `if they are initialized in the subroutine` to `if they are initialized in the declaration part in the subroutine`?
+- p.95 Not sure why only 3.2.7.1?
+- 
