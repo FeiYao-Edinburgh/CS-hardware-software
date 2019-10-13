@@ -116,4 +116,5 @@ end do
 46. Two ways of defining an array are accepted illustrated in p.49-50 in Modern Fortran, namely using dimension keyword/attribute or plus array shape to the variable name.
 47. The basic book introduces mostly internal procedures and hence `contains` keyword enables most use of procedures automatically. When using external functions (not subroutines), however, functions need to be declared illustrated in p.75 in Modern Fortran.
 48. Specification, execution parts needs to placed separately and carefully otherwise `Error: Unexpected` kinds of error will be encountered.
-49. 
+49. `save` attribute should always be avoided to avoid unwanted effects. To avoid that thoroughly, we must be very careful not initializing our variables in declaration part in subroutines, see more details in p.88-p.89 in Modern Fortran.
+50. 
