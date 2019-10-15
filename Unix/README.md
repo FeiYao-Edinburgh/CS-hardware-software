@@ -8,6 +8,7 @@
 5. [linuxcast](https://www.youtube.com/playlist?list=PLrrWFMyom0IocKsc1ukKFxOljEg7IT_W3)
 6. [The Linux Command Line](http://billie66.github.io/TLCL/book/index.html)
 7. [Syncing your fork to the original repository via the browser](https://github.com/KirstieJane/STEMMRoleModels/wiki/Syncing-your-fork-to-the-original-repository-via-the-browser)
+8. [Regular Expressions](https://v4.software-carpentry.org/regexp/index.html)
 
 ### Running a Shell script
 Supposing your `helloworld.sh` script has the following code.
