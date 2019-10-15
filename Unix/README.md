@@ -1,7 +1,7 @@
 # Unix
 
 ### Good resources to follow
-1. [The Unix Shell](https://swcarpentry.github.io/shell-novice/) (7 to be completed in a later time)
+1. [The Unix Shell](https://swcarpentry.github.io/shell-novice/) (grep finished, find to be finished tonight)
 2. [Extra Unix Shell Material](http://swcarpentry.github.io/shell-extras/)
 3. [Version Control with Git](https://swcarpentry.github.io/git-novice/)
 4. Markdown Basic Syntax [I](https://www.markdownguide.org/basic-syntax/) [II](https://help.github.com/en/articles/basic-writing-and-formatting-syntax)
