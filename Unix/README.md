@@ -4,7 +4,7 @@
 1. [The Unix Shell](https://swcarpentry.github.io/shell-novice/) (grep finished, find to be finished tonight)
 2. [Extra Unix Shell Material](http://swcarpentry.github.io/shell-extras/)
 3. Version Control with Git [I](https://swcarpentry.github.io/git-novice/), [II](https://git-scm.com/docs/gitignore)
-4. Markdown Basic Syntax [I](https://www.markdownguide.org/basic-syntax/) [II](https://help.github.com/en/articles/basic-writing-and-formatting-syntax)
+4. Markdown Basic Syntax [I](https://www.markdownguide.org/basic-syntax/), [II](https://help.github.com/en/articles/basic-writing-and-formatting-syntax)
 5. [linuxcast](https://www.youtube.com/playlist?list=PLrrWFMyom0IocKsc1ukKFxOljEg7IT_W3)
 6. [The Linux Command Line](http://billie66.github.io/TLCL/book/index.html)
 7. [Syncing your fork to the original repository via the browser](https://github.com/KirstieJane/STEMMRoleModels/wiki/Syncing-your-fork-to-the-original-repository-via-the-browser)
