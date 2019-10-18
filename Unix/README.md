@@ -1,5 +1,3 @@
-# Unix
-
 ### Good resources to follow
 1. [The Unix Shell](https://swcarpentry.github.io/shell-novice/)
 2. [Extra Unix Shell Material](http://swcarpentry.github.io/shell-extras/)
