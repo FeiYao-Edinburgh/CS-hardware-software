@@ -7,6 +7,7 @@
 4. [Intermediate Python](https://book.pythontips.com/en/latest/#)
 5. [Cartopy Plotting Galleries I](https://mp.weixin.qq.com/s/VLRAwsNNdX7Yvnxt-JVHFA)
 6. [Cartopy Plotting Galleries II](https://stackoverflow.com/questions/55598249/showing-alaska-and-hawaii-in-cartopy-map)
+7. [NumPy for Matlab users](https://docs.scipy.org/doc/numpy/user/numpy-for-matlab-users.html) (regress ~~~ linalg.lstsqregress ~~~ )
 
 ### Running a Python script
 Supposing your `helloworld.py` script has the following code.
