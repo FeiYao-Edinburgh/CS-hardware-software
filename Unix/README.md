@@ -21,3 +21,8 @@ echo "Hello World"
 ```
 The `#!` character sequence is, in fact, a special construct called a shebang. The shebang is used to tell the system the name of the interpreter that should be used to execute the script that follows. You can use `which bash` to show the location of your interpreters. Bear in mind that there will always be another bash in `/bin/bash`.
 
+### VERY useful short-cuts in Terminal
+1. [Ctrl-w deletes word by word backward. Ctrl-u deletes the whole line.](https://unix.stackexchange.com/questions/94331/how-can-i-delete-a-word-backward-at-the-command-line-bash-and-zsh) Ctrl-left-arrow moves cursor back one word. Ctrl-right-arrow moves cursor forward one word.
+2. [Comment and uncomment multiple lines in Vim](https://discuss.devopscube.com/t/how-to-comment-and-uncomment-multiple-line-vi-terminal-editor/64)
+3. [Copy and paste in Vim](https://stackoverflow.com/questions/73319/duplicate-a-whole-line-in-vim). Use (Shift)V plus arrows to select!
+4. [Notepad++ shortcuts](http://www.keyxl.com/aaacd5a/43/Notepad-Plus-text-editor-software-keyboard-shortcuts.htm). Use Ctrl-d and Ctrl-l more later.
