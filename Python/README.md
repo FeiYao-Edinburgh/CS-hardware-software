@@ -13,10 +13,10 @@ Supposing your `helloworld.py` script has the following code.
 ```
 print("Hello World")
 ```
-You can easily run it by typing `python helloworld.py` as long as `python` is in your `$PATH`. Alternatively, you can add the following code to the first line of the script and run it as `chmod u+x helloworld.py; ./helloworld.py`.
+You can easily run it by typing `python helloworld.py` as long as `python` interpreter is in your `$PATH`. Alternatively, you can add the following code to the first line of the script and run it as `chmod u+x helloworld.py; ./helloworld.py`.
 ```
 #!/exports/csce/datastore/geos/users/s1855106/miniconda/base/envs/geo/bin/python
-echo "Hello World"
+print("Hello World")
 ```
 The `#!` character sequence is, in fact, a special construct called a shebang. The shebang is used to tell the system the name of the interpreter that should be used to execute the script that follows. You can use `which python` to show the location of your interpreters.
 
