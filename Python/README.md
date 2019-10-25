@@ -38,7 +38,8 @@ np.multiply(x,10,out=y)
 - `np.sum()` plus with boolean arrays is always used for counting purpose.
 - Logical expressions applied on boolean arrays take single symbols such as `&`, `|`, and `~`.
 - Numpy ndarray slicing can rely on simple indexing, boolean masking, and **fancy indexing**.
-
+- [\*arg, \*\*kwarg, \*var, \*\*var](https://www.jianshu.com/p/be92113116c8) can be VERY helpful in Python coding. Use them as possible as I can.
+- 
 
 ### Possible Errata for Python Data Science Handbook
 - p.64, According to Figure 2-4 and Rule 2, the one-dimentioanl array is stretched, or broadcat, across the second -> first dimention in order to match the shape of M.
