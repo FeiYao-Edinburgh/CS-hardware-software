@@ -27,3 +27,7 @@ The `#!` character sequence is, in fact, a special construct called a shebang. T
 - `axis=` keyword is always used when using numpy to do some calculations. `axis` actually specifies the dimension of the array that will be collaspsed, said in p.60 in Python Data Science Handbook.
 - 
 
+### Possible Errata for Python Data Science Handbook
+- p.64, According to Figure 2-4 and Rule 2, the one-dimentioanl array is stretched, or broadcat, across the second -> first dimention in order to match the shape of M.
+- p.75, `(inches < 0.2)` -> `(inches < 0.1)`?
+- 
