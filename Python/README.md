@@ -4,7 +4,7 @@
 1. [Programming with Python](https://swcarpentry.github.io/python-novice-inflammation/)
 2. [Plotting and Programming in Python](http://swcarpentry.github.io/python-novice-gapminder/)
 3. [Python Data Science Handbook (Highly Recommended for Scientists!)](https://jakevdp.github.io/PythonDataScienceHandbook/)
-4. [Intermediate Python](https://book.pythontips.com/en/latest/#)
+4. [Intermediate Python](https://book.pythontips.com/en/latest/#) (\*arg and \*\*kwarg completed.)
 5. [Cartopy Plotting Galleries I](https://mp.weixin.qq.com/s/VLRAwsNNdX7Yvnxt-JVHFA)
 6. [Cartopy Plotting Galleries II](https://stackoverflow.com/questions/55598249/showing-alaska-and-hawaii-in-cartopy-map)
 7. [NumPy for Matlab users](https://docs.scipy.org/doc/numpy/user/numpy-for-matlab-users.html) (regress ~~~ linalg.lstsqregress ~~~ )
@@ -37,7 +37,8 @@ np.multiply(x,10,out=y)
 - Refer to p.40 of Python Data Science Handbook to distinguish the difference between `np.random.normal()` and `np.random.random()`. The former is to produce normal distribution while the latter is to produce uniformaly random distribution.
 - `np.sum()` plus with boolean arrays is always used for counting purpose.
 - Logical expressions applied on boolean arrays take single symbols such as `&`, `|`, and `~`.
-- 
+- Numpy ndarray slicing can rely on simple indexing, boolean masking, and **fancy indexing**.
+
 
 ### Possible Errata for Python Data Science Handbook
 - p.64, According to Figure 2-4 and Rule 2, the one-dimentioanl array is stretched, or broadcat, across the second -> first dimention in order to match the shape of M.
