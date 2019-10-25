@@ -27,13 +27,16 @@ The `#!` character sequence is, in fact, a special construct called a shebang. T
 - `axis=` keyword is always used when using numpy to do some calculations. `axis` actually specifies the dimension of the array that will be **collaspsed**, said in p.60 in Python Data Science Handbook.
 - New Numpy functions mastered and will be used. `np.copy()`, `np.all()`, `np.any()`, `np.argmin()`, `np.argmax()`, `np.random.choice()`, `np.random.shuffle()`, ...
 - assignment-type operators such as `+=`, `-=`, `*=`, and etc should be more used later.
-- All of the arithmetic operators are simply convenient wrappers around specific functions built into Numpy. When using functions, we can specify `out` keyword directly, of which proactice can save memory use significantly, see following:
+- All of the arithmetic operators are simply convenient wrappers around specific functions (NaN-safe counterparts may exist) built into Numpy. When using functions, we can specify `out` keyword directly, of which proactice can save memory use significantly, see following:
 ```
 x=np.arange(5)
 y=np.empty(5)
 np.multiply(x,10,out=y)
 ```
 - Semicolon `;` is used in Python when you want to supress output of a command.
+- Refer to p.40 of Python Data Science Handbook to distinguish the difference between `np.random.normal()` and `np.random.random()`. The former is to produce normal distribution while the latter is to produce uniformaly random distribution.
+- `np.sum()` plus with boolean arrays is always used for counting purpose.
+- Logical expressions applied on boolean arrays take single symbols such as `&`, `|`, and `~`.
 - 
 
 ### Possible Errata for Python Data Science Handbook
