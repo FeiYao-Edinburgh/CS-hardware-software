@@ -24,7 +24,7 @@ The `#!` character sequence is, in fact, a special construct called a shebang. T
 ### Careats/tips when using Python
 - When we assign a list (or an array) to another list (or anpother array), the interpreter in fact creates a pointer under the hood. Therefore, we must be VERY careful as chaging the values of the assigned list/array will also lead to value changes in the original list (array). To copy a real list/array, use `a=b.copy()` for list and `a=np.copy(b)`. **This problem also goes into slicing for array but not list, explained in p.46 in Python Data Science Handbook.**
 - For VERY large ndarray computation, specifying `out` argument can significantly save memory use, said in p.57 in Python Data Science Handbook (currently does not matter for me since our linux servers have a relatively large size of memories).
-- `axis=` keyword is always used when using numpy to do some calculations. `axis` actually specifies the dimension of the array that will be collaspsed, said in p.60 in Python Data Science Handbook.
+- `axis=` keyword is always used when using numpy to do some calculations. `axis` actually specifies the dimension of the array that will be **collaspsed**, said in p.60 in Python Data Science Handbook.
 - New Numpy functions mastered and will be used. `np.copy()`, `np.all()`, `np.any()`, `np.argmin()`, `np.argmax()`, `np.random.choice()`, `np.random.shuffle()`, ...
 - assignment-type operators such as `+=`, `-=`, `*=`, and etc should be more used later.
 - All of the arithmetic operators are simply convenient wrappers around specific functions built into Numpy. When using functions, we can specify `out` keyword directly, of which proactice can save memory use significantly, see following:
