@@ -21,6 +21,11 @@ This repository mainly contain notes that I further enhance my programming capab
 1. [Comment and uncomment multiple lines in Vim](https://discuss.devopscube.com/t/how-to-comment-and-uncomment-multiple-line-vi-terminal-editor/64).
 2. [Copy and paste in Vim](https://stackoverflow.com/questions/73319/duplicate-a-whole-line-in-vim). Use (Shift)V plus arrows to do block selection!
 
-### Notepad++
+#### Notepad++
 1. [Notepad++ shortcuts](http://www.keyxl.com/aaacd5a/43/Notepad-Plus-text-editor-software-keyboard-shortcuts.htm). Use Ctrl-d and Ctrl-l more later.
 
+### Good sentences to remember
+1. Everything should be made as simple as possible, but no simpler. (Albert Einstein)
+2. Premature optimization is the root of all evil. (Donald Knuth)
+3. One guiding principal of Python/Fortran code is that "explicit is better than implicit".
+4. 
