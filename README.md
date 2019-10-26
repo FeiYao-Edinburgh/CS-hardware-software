@@ -15,7 +15,7 @@ This repository mainly contain notes that I further enhance my programming capab
 11. Shift-PgDn: pge scroll down.
 12. Shift-up-arrow: line scroll up.
 13. Shift-down-arrow: line scroll down.
-14. When within [`tmux`](https://www.hamvocke.com/blog/a-quick-and-easy-guide-to-tmux/), [using Ctrl-b-\[ to enter scroll mode and then PgUp/PgDn/Up-arrow/Down-arrow should work fine as in Vim](https://superuser.com/questions/209437/how-do-i-scroll-in-tmux).
+14. When within [`tmux`](https://www.hamvocke.com/blog/a-quick-and-easy-guide-to-tmux/), [using Ctrl-b-\[ to enter scroll mode and then PgUp/PgDn/Up-arrow/Down-arrow should work fine as in Vim. Using q to quit scroll mode.](https://superuser.com/questions/209437/how-do-i-scroll-in-tmux).
 
 #### Vim
 1. [Comment and uncomment multiple lines in Vim](https://discuss.devopscube.com/t/how-to-comment-and-uncomment-multiple-line-vi-terminal-editor/64).
