@@ -43,7 +43,7 @@ np.multiply(x,10,out=y)
 - When doing Pandas selection, use `.loc` and `.iloc` as possible as I can. The corresponding methods for NetCDF files are `.sel` and `.isel`.
 - Because Pandas is designed to work with NumPy, any NumPy ufunc will work on Pandas Series and DataFrame objects.
 - Personally, arrays of objects are not recommended for use since operations on the data will be done on Python level rather than the compiled level, said in p. 121 - 122 in Python Data Science Handbook.
-- While it is fine to do slicing for unsorted normal Series and DataFrame, it is necessary to order the index of MultiIndex Series or DataFrame to perform desired slicing, see examples below.
+- While it is fine to do slicing for unsorted normal Series and DataFrame, it is necessary to sort the index of MultiIndex Series or DataFrame to perform desired slicing, see examples below.
 ```
 import numpy as np
 import pandas as pd
