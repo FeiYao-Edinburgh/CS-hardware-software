@@ -55,7 +55,7 @@ index=pd.MultiIndex.from_product([['a','c','b'],[1,2]])
 columns=pd.MultiIndex.from_product([['g','e','f'],[1,2]])
 data=pd.DataFrame(np.random.random((6,6)),index=index, columns=columns) # np.random.random and np.random.rand is almost the same except the different number of arguments accepted, more details here: https://stackoverflow.com/questions/47231852/np-random-rand-vs-np-random-random.
 # data['a':'c'] # UnsortedIndexError: 'Key length (1) was greater than MultiIndex lexsort depth (0)'
-data = data.sort_index()
+data = data.sort_index() # debug
 data['a':'c'] # Now will be fine
 idx=pd.IndexSlice # Great method for MultiIndex DataFrame. Not necessary for MultiIndex Series.
 data.loc[idx[:,1],idx[:,2]]
