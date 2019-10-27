@@ -39,6 +39,10 @@ np.multiply(x,10,out=y)
 - Logical expressions applied on boolean arrays take single symbols such as `&`, `|`, and `~`.
 - Numpy ndarray slicing can rely on simple indexing, boolean masking, and **fancy indexing**.
 - [\*arg, \*\*kwarg, \*var, \*\*var](https://www.jianshu.com/p/be92113116c8) can be VERY helpful in Python coding. Use them as possible as I can.
+- Repeatedly considering the combining indexing in p.80 in Python Data Science Handbook, especially boolean mask indexing that I previously used as granted. Broadcast are used under the hood!!! `np.where()` is essentially producing fancy indexing values.
+- When doing Pandas selection, use `.loc` and `.iloc` as possible as I can. The corresponding methods for NetCDF files are `.sel` and `.isel`.
+- Because Pandas is designed to work with NumPy, any NumPy ufunc will work on Pandas Series and DataFrame objects.
+- Personally, arrays of objects are not recommended for use since operations on the data will be done on Python level rather than the compiled level, said in p. 121 - 122 in Python Data Science Handbook.
 - 
 
 ### Possible Errata for Python Data Science Handbook
