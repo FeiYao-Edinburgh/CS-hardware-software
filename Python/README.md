@@ -43,7 +43,23 @@ np.multiply(x,10,out=y)
 - When doing Pandas selection, use `.loc` and `.iloc` as possible as I can. The corresponding methods for NetCDF files are `.sel` and `.isel`.
 - Because Pandas is designed to work with NumPy, any NumPy ufunc will work on Pandas Series and DataFrame objects.
 - Personally, arrays of objects are not recommended for use since operations on the data will be done on Python level rather than the compiled level, said in p. 121 - 122 in Python Data Science Handbook.
-- 
+- While it is fine to do slicing for unsorted normal Series and DataFrame, it is necessary to order the index of MultiIndex Series or DataFrame to perform desired slicing, see examples below.
+```
+import numpy as np
+import pandas as pd
+data = pd.DataFrame(np.random.rand(3,4),index=['a','c','b'],columns=['g','e','f','h'])
+data['a':'c'] # equals data.loc['a':'c',:]
+data.loc['a':'c','g':'f']
+# Now for MultiIndex DataFrame/Series
+index=pd.MultiIndex.from_product([['a','c','b'],[1,2]])
+columns=pd.MultiIndex.from_product([['g','e','f'],[1,2]])
+data=pd.DataFrame(np.random.random((6,6)),index=index, columns=columns) # np.random.random and np.random.rand is almost the same except the different number of arguments accepted, more details here: https://stackoverflow.com/questions/47231852/np-random-rand-vs-np-random-random.
+# data['a':'c'] # UnsortedIndexError: 'Key length (1) was greater than MultiIndex lexsort depth (0)'
+data = data.sort_index()
+data['a':'c'] # Now will be fine
+idx=pd.IndexSlice # Great method for MultiIndex DataFrame. Not necessary for MultiIndex Series.
+data.loc[idx[:,1],idx[:,2]]
+```
 
 ### Possible Errata for Python Data Science Handbook
 - p.64, According to Figure 2-4 and Rule 2, the one-dimentioanl array is stretched, or broadcat, across the second -> first dimention in order to match the shape of M.
