@@ -60,6 +60,8 @@ data['a':'c'] # Now will be fine
 idx=pd.IndexSlice # Great method for MultiIndex DataFrame. Not necessary for MultiIndex Series.
 data.loc[idx[:,1],idx[:,2]]
 ```
+- It becomes extremely easy to calculate data statistics within certain groups with the MultiIndex DataFrame, see example in p.141 in Python Data Science Handbook!
+- 
 
 ### Possible Errata for Python Data Science Handbook
 - p.64, According to Figure 2-4 and Rule 2, the one-dimentioanl array is stretched, or broadcat, across the second -> first dimention in order to match the shape of M.
