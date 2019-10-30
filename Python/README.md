@@ -3,16 +3,15 @@
 Using [Jupyter Notebook provided by School of GeoSciences](https://www.geos.ed.ac.uk/notebook) to learn and practice.
 
 ### Good resources to follow
-1. [Programming with Python](https://swcarpentry.github.io/python-novice-inflammation/)
-2. [Plotting and Programming in Python](http://swcarpentry.github.io/python-novice-gapminder/)
-3. [Python Data Science Handbook (Highly Recommended for Scientists!)](https://jakevdp.github.io/PythonDataScienceHandbook/)
-4. [Intermediate Python](https://book.pythontips.com/en/latest/#) (\*arg and \*\*kwarg completed.)
-5. [Cartopy Plotting Galleries I](https://mp.weixin.qq.com/s/VLRAwsNNdX7Yvnxt-JVHFA)
-6. [Cartopy Plotting Galleries II](https://stackoverflow.com/questions/55598249/showing-alaska-and-hawaii-in-cartopy-map)
-7. [NumPy for Matlab users](https://docs.scipy.org/doc/numpy/user/numpy-for-matlab-users.html) (regress ~~~ linalg.lstsqregress ~~~ )
-8. [Data science with Python: 8 ways to do linear regression and measure their speed (also more reading on differences between linear and non-linear regression models, why R^2 cannot always be used for assess model's capabilities (residual plot is surely needed)...)](https://www.freecodecamp.org/news/data-science-with-python-8-ways-to-do-linear-regression-and-measure-their-speed-b5577d75f8b/)
-9. [Editing right ylabels in seaborn FacetGrid plots](https://cduvallet.github.io/posts/2018/11/facetgrid-ylabel-access)
-10. [Seems that sns.FacetGrid does not work well with plt.hist2d ...](https://github.com/mwaskom/seaborn/issues/321). [Also colorbar issues...](https://github.com/mwaskom/seaborn/issues/582). Hence for scatter density plotting, I may continue use subplots...or gridspec...
+1. [A Whirlwind Tour of Python](https://jakevdp.github.io/WhirlwindTourOfPython/)
+2. [Python Data Science Handbook (Highly Recommended for Scientists!)](https://jakevdp.github.io/PythonDataScienceHandbook/)
+3. [Intermediate Python](https://book.pythontips.com/en/latest/#) (\*arg and \*\*kwarg completed.)
+4. [Cartopy Plotting Galleries I](https://mp.weixin.qq.com/s/VLRAwsNNdX7Yvnxt-JVHFA)
+5. [Cartopy Plotting Galleries II](https://stackoverflow.com/questions/55598249/showing-alaska-and-hawaii-in-cartopy-map)
+6. [NumPy for Matlab users](https://docs.scipy.org/doc/numpy/user/numpy-for-matlab-users.html) (regress ~~~ linalg.lstsqregress ~~~ )
+7. [Data science with Python: 8 ways to do linear regression and measure their speed (also more reading on differences between linear and non-linear regression models, why R^2 cannot always be used for assess model's capabilities (residual plot is surely needed)...)](https://www.freecodecamp.org/news/data-science-with-python-8-ways-to-do-linear-regression-and-measure-their-speed-b5577d75f8b/)
+8. [Editing right ylabels in seaborn FacetGrid plots](https://cduvallet.github.io/posts/2018/11/facetgrid-ylabel-access)
+9. [Seems that sns.FacetGrid does not work well with plt.hist2d ...](https://github.com/mwaskom/seaborn/issues/321). [Also colorbar issues...](https://github.com/mwaskom/seaborn/issues/582). Hence for scatter density plotting, I may continue use subplots...or gridspec...
 
 ### Running a Python script
 Supposing your `helloworld.py` script has the following code.
