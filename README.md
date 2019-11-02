@@ -45,7 +45,7 @@ This repository mainly contain notes that I further enhance my programming capab
   <tr>
     <td valign="center" align='center'>Ctrl-tab</td>
     <td valign="center" align='center'>Switch between opend tabs</td>
-    <td valign="center" align='center' rowspan=3>Google-Chrome</td>
+    <td valign="center" align='center' rowspan=4>Google-Chrome</td>
   </tr>
   <tr>
     <td valign="center" align='center'>Ctrl-1</td>
@@ -54,6 +54,10 @@ This repository mainly contain notes that I further enhance my programming capab
   <tr>
     <td valign="center" align='center'>Ctrl-9</td>
     <td valign="center" align='center'>Go back to the last tab</td>
+  </tr>
+  <tr>
+    <td valign="center" align='center'>Ctrl-t</td>
+    <td valign="center" align='center'>Open a new tab</td>
   </tr>
 </table>
 <sup>1</sup> https://support.microsoft.com/en-gb/help/12445/windows-keyboard-shortcuts
