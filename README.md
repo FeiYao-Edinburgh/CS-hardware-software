@@ -11,7 +11,7 @@ This repository mainly contain notes that I further enhance my programming capab
   <tr>
     <td valign="center" align='center'>Win-e</td>
     <td valign="center" align='center'>Open File Explorer</td>
-    <td valign="center" align='center' rowspan=5>Win10</td>
+    <td valign="center" align='center' rowspan=5>[Win10](https://support.microsoft.com/en-gb/help/12445/windows-keyboard-shortcuts)</td>
   </tr>
   <tr>
     <td valign="center" align='center'>Win-q</td>
@@ -42,7 +42,19 @@ This repository mainly contain notes that I further enhance my programming capab
     <td valign="center" align='center'>Ctrl-w</td>
     <td valign="center" align='center'>Close a tab</td>
   </tr>
-
+  <tr>
+    <td valign="center" align='center'>Ctrl-tab</td>
+    <td valign="center" align='center'>Switch between opend tabs</td>
+    <td valign="center" align='center' rowspan=3>Google-Chrome</td>
+  </tr>
+  <tr>
+    <td valign="center" align='center'>Ctrl-1</td>
+    <td valign="center" align='center'>Go back to the first tab</td>
+  </tr>
+  <tr>
+    <td valign="center" align='center'>Ctrl-9</td>
+    <td valign="center" align='center'>Go back to the last tab</td>
+  </tr>
 </table>
 This table will ignore common keyboard shortcuts like Ctrl-c, Ctrl-x, Ctrl-v, Ctrl-z, Ctrl-y, Ctrl-a, F2, F5, -/= for Sougou, and etc.
 
