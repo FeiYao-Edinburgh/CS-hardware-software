@@ -11,7 +11,7 @@ This repository mainly contain notes that I further enhance my programming capab
   <tr>
     <td valign="center" align='center'>Win-e</td>
     <td valign="center" align='center'>Open File Explorer</td>
-    <td valign="center" align='center' rowspan=5>Win10<sup>1</sup></td>
+    <td valign="center" align='center' rowspan=5>Win10<sup> 1</sup></td>
   </tr>
   <tr>
     <td valign="center" align='center'>Win-q</td>
