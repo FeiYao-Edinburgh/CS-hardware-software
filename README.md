@@ -1,6 +1,6 @@
 This repository mainly contain notes that I further enhance my programming capabilities including Shell, Python, Fortran, Perl, and etc. It will also contain some notes on computer hardware knowledge, which is surely beneficial for deeply understanding the essence of programming. Moreover, it might also contain some notes on math as math is always the foundation of many algorithms.
 
-### Awesome Keyboard Shortcuts to Make Life easier!
+### Awesome Keyboard Shortcuts to Make Life easier!!!
 <table>
   <caption class="cap"></caption>
   <tr>
@@ -44,6 +44,7 @@ This repository mainly contain notes that I further enhance my programming capab
   </tr>
 
 </table>
+This table will ignore common keyboard shortcuts like Ctrl-c, Ctrl-x, Ctrl-v, Ctrl-z, Ctrl-y, Ctrl-a, F2, F5, -/= for Sougou, and etc.
 
 ### VERY useful short-cuts in Bash, Vim, and etc.
 #### Bash
