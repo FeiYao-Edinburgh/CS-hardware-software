@@ -39,7 +39,7 @@ np.multiply(x,10,out=y)
 ```
 - Semicolon `;` is used in Python when you want to supress output of a command.
 - Refer to p.40 of Python Data Science Handbook to distinguish the difference between `np.random.normal()` and `np.random.random()`. The former is to produce normal distribution while the latter is to produce uniformaly random distribution.
-- `np.sum()` plus with boolean arrays is always used for counting purpose.
+- `np.sum()` plus with boolean arrays is always used for counting purpose, said in p.73 in Python Data Science Handbook.
 - Logical expressions applied on boolean arrays take single symbols such as `&`, `|`, and `~`.
 - Numpy ndarray slicing can rely on simple indexing, boolean masking, and **fancy indexing**.
 - [\*arg, \*\*kwarg, \*var, \*\*var](https://www.jianshu.com/p/be92113116c8) can be VERY helpful in Python coding. Use them as possible as I can.
