@@ -13,6 +13,10 @@ This repository mainly contain notes that I further enhance my programming capab
     <td valign="center" align='center'>Open File Explorer</td>
     <td valign="center" align='center' rowspan=7>Win10</td>
   </tr>
+  <tr>
+    <td valign="center" align='center'>Win-q</td>
+    <td valign="center" align='center'>Search</td>
+  </tr>
 
 </table>
 
