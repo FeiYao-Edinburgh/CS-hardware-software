@@ -84,6 +84,9 @@ This table will ignore common keyboard shortcuts like Ctrl-c, Ctrl-x, Ctrl-v, Ct
 #### Notepad++
 1. [Notepad++ shortcuts](http://www.keyxl.com/aaacd5a/43/Notepad-Plus-text-editor-software-keyboard-shortcuts.htm). Use Ctrl-d and Ctrl-l more later.
 
+#### [Jupyter Notebook keyboard shortcuts](https://www.cheatography.com/weidadeyue/cheat-sheets/jupyter-notebook/pdf_bw/)
+
+
 #### Windows plus Google-Chrome
 - [Use the Windows Snipping Tool to Capture Popup Menus](https://helpdeskgeek.com/how-to/use-the-windows-snipping-tool-to-capture-popup-menus/)
 - [Use Alt-Tab, Ctrl+Tab (plus Ctrl-1 and Ctrl-9), Ctrl-T, Ctrl-W more in the future](https://www.zhihu.com/question/19555789)
