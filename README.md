@@ -11,7 +11,7 @@ This repository mainly contain notes that I further enhance my programming capab
   <tr>
     <td valign="center" align='center'>Win-e</td>
     <td valign="center" align='center'>Open File Explorer</td>
-    <td valign="center" align='center' rowspan=5>[Win10](https://support.microsoft.com/en-gb/help/12445/windows-keyboard-shortcuts)</td>
+    <td valign="center" align='center' rowspan=5>Win10<sup>1</sup></td>
   </tr>
   <tr>
     <td valign="center" align='center'>Win-q</td>
@@ -56,6 +56,7 @@ This repository mainly contain notes that I further enhance my programming capab
     <td valign="center" align='center'>Go back to the last tab</td>
   </tr>
 </table>
+[<sup>1</sup>](https://support.microsoft.com/en-gb/help/12445/windows-keyboard-shortcuts)
 This table will ignore common keyboard shortcuts like Ctrl-c, Ctrl-x, Ctrl-v, Ctrl-z, Ctrl-y, Ctrl-a, F2, F5, -/= for Sougou, and etc.
 
 ### VERY useful short-cuts in Bash, Vim, and etc.
@@ -64,7 +65,7 @@ This table will ignore common keyboard shortcuts like Ctrl-c, Ctrl-x, Ctrl-v, Ct
 2. Ctrl-u: deletes from the beginning to the position of the cursor of the line.
 3. Ctrl-k: deletes from the position of the cursor to the end of the line
 4. Ctrl-y: to paste the deleted/cutted lines from 1, 2, and 3.
-5. Ctrl-left-arrow (or Alt-b): moves cursor back one word.
+5. Ctrl-left-arrow (or Alt-b): moves cursor back one word. Also works for markdown!
 6. Ctrl-right-arrow (or Alt-c): moves cursor forward one word.
 7. Ctrl-a: moves cursor back the beginning of the line.
 8. Ctrl-e: moves cursor to the end of the line.
