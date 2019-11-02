@@ -3,7 +3,7 @@ This repository mainly contain notes that I further enhance my programming capab
 <table>
   <caption class="cap">Useful short-cuts in Bash, Vim, and etc.</caption>
   <tr>
-    <th> class="title">No.</th>
+    <th class="title">No.</th>
   </tr>
 </table>
 
