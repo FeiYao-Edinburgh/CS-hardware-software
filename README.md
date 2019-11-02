@@ -17,7 +17,22 @@ This repository mainly contain notes that I further enhance my programming capab
     <td valign="center" align='center'>Win-q</td>
     <td valign="center" align='center'>Search</td>
   </tr>
-
+  <tr>
+    <td valign="center" align='center'>Alt-Tab</td>
+    <td valign="center" align='center'>Switch bettween open apps</td>
+  </tr>
+  <tr>
+    <td valign="center" align='center'>Win-l</td>
+    <td valign="center" align='center'>Lock screen</td>
+  </tr>
+  <tr>
+    <td valign="center" align='center'>Win-d</td>
+    <td valign="center" align='center'>Display and hide the desktop</td>
+  </tr>
+  <tr>
+    <td valign="center" align='center'>Win-d</td>
+    <td valign="center" align='center'>Display and hide the desktop</td>
+  </tr>
 </table>
 
 ### VERY useful short-cuts in Bash, Vim, and etc.
