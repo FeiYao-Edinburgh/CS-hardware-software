@@ -56,7 +56,7 @@ This repository mainly contain notes that I further enhance my programming capab
     <td valign="center" align='center'>Go back to the last tab</td>
   </tr>
 </table>
-<sup>1</sup>. https://support.microsoft.com/en-gb/help/12445/windows-keyboard-shortcuts
+<sup>1</sup> https://support.microsoft.com/en-gb/help/12445/windows-keyboard-shortcuts
 
 This table will ignore common keyboard shortcuts like Ctrl-c, Ctrl-x, Ctrl-v, Ctrl-z, Ctrl-y, Ctrl-a, F2, F5, -/= for Sougou, and etc.
 
