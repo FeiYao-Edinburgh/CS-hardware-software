@@ -11,7 +11,7 @@ This repository mainly contain notes that I further enhance my programming capab
   <tr>
     <td valign="center" align='center'>Win-e</td>
     <td valign="center" align='center'>Open File Explorer</td>
-    <td valign="center" align='center' rowspan=7>Win10</td>
+    <td valign="center" align='center' rowspan=5>Win10</td>
   </tr>
   <tr>
     <td valign="center" align='center'>Win-q</td>
@@ -30,9 +30,19 @@ This repository mainly contain notes that I further enhance my programming capab
     <td valign="center" align='center'>Display and hide the desktop</td>
   </tr>
   <tr>
-    <td valign="center" align='center'>Win-d</td>
-    <td valign="center" align='center'>Display and hide the desktop</td>
+    <td valign="center" align='center'>Alt-left-arrow</td>
+    <td valign="center" align='center'>Go back</td>
+    <td valign="center" align='center' rowspan=3>Win10 & Google-Chrome</td>
   </tr>
+  <tr>
+    <td valign="center" align='center'>Alt-right-arrow</td>
+    <td valign="center" align='center'>Go forward</td>
+  </tr>
+  <tr>
+    <td valign="center" align='center'>Ctrl-w</td>
+    <td valign="center" align='center'>Close a tab</td>
+  </tr>
+
 </table>
 
 ### VERY useful short-cuts in Bash, Vim, and etc.
