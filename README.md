@@ -63,6 +63,15 @@ This repository mainly contain notes that I further enhance my programming capab
     <td valign="center" align='center'>Ctrl-t</td>
     <td valign="center" align='center'>Open a new tab</td>
   </tr>
+  <tr>
+    <td valign="center" align='center'>Ctrl-enter</td>
+    <td valign="center" align='center'>Compile the tex file</td>
+    <td valign="center" align='center' rowspan=2>Overleaf</td>
+  </tr>
+  <tr>
+    <td valign="center" align='center'>Ctrl-/</td>
+    <td valign="center" align='center'>Comment/uncomment a line or multiple lines</td>
+  </tr>
 </table>
 <sup>1</sup> https://support.microsoft.com/en-gb/help/12445/windows-keyboard-shortcuts
 
