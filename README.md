@@ -2,7 +2,7 @@ This repository mainly contain notes that I further enhance my programming capab
 
 - **DDL1**: 11/14 Group Meeting
 - **DDL2**: 11/29 isprsjprs review work
-
+- [Core Python packages for Earth Science data](http://wiki.seas.harvard.edu/geos-chem/index.php/Python_tools_for_use_with_GEOS-Chem#Core_Python_packages_for_Earth_Science_data)
 
 ### Awesome Keyboard Shortcuts to Make Life easier!!!
 <table>
