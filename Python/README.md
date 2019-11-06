@@ -8,7 +8,7 @@ Using [Jupyter Notebook provided by School of GeoSciences](https://www.geos.ed.a
 3. [Intermediate Python](https://book.pythontips.com/en/latest/#) (\*arg and \*\*kwarg completed.)
 4. [xarray: N-D labeled arrays and datasets in Python](http://xarray.pydata.org/en/stable/index.html)
 5. [xESMF: Universal Regridder for Geospatial Data](https://xesmf.readthedocs.io/en/latest/index.html)
-6. [GEOSChem-python-tutorial](https://github.com/geoschem/GEOSChem-python-tutorial)
+6. [GEOSChem-python-tutorial](https://github.com/geoschem/GEOSChem-python-tutorial) (Pay attention to `@interact(var=SelectionSlider(options=varnames, continuous_update=False))` in `Chapter01_NetCDF_xarray.ipynb`)
 4. [Cartopy Plotting Galleries I](https://mp.weixin.qq.com/s/VLRAwsNNdX7Yvnxt-JVHFA)
 5. [Cartopy Plotting Galleries II](https://stackoverflow.com/questions/55598249/showing-alaska-and-hawaii-in-cartopy-map)
 6. [NumPy for Matlab users](https://docs.scipy.org/doc/numpy/user/numpy-for-matlab-users.html) (regress ~~~ linalg.lstsqregress ~~~ )
