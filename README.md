@@ -103,7 +103,7 @@ This table will ignore common keyboard shortcuts like Ctrl-c, Ctrl-x, Ctrl-v, Ct
 
 #### [Jupyter Notebook keyboard shortcuts](https://www.cheatography.com/weidadeyue/cheat-sheets/jupyter-notebook/pdf_bw/)
 #### [A/B/M/Y is extremely useful in Jupyter Notebook](https://www.dataquest.io/blog/jupyter-notebook-tips-tricks-shortcuts/)
-#### [C/V is extremely useful in Jupyter Notebook](https://towardsdatascience.com/jypyter-notebook-shortcuts-bf0101a98330)
+#### [X/C/V() is extremely useful in Jupyter Notebook](https://towardsdatascience.com/jypyter-notebook-shortcuts-bf0101a98330)
 
 #### Windows plus Google-Chrome
 - [Use the Windows Snipping Tool to Capture Popup Menus](https://helpdeskgeek.com/how-to/use-the-windows-snipping-tool-to-capture-popup-menus/)
