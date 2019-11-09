@@ -75,7 +75,7 @@ This repository mainly contain notes that I further enhance my programming capab
   <tr>
     <td valign="center" align='center'>Esc-c</td>
     <td valign="center" align='center'>Copy a cell</td>
-    <td valign="center" align='center' rowspan=12>Jupyter Notebook<sup> 2</sup></td>
+    <td valign="center" align='center' rowspan=13>Jupyter Notebook<sup> 2</sup></td>
   </tr>
   <tr>
     <td valign="center" align='center'>Esc-x</td>
@@ -92,6 +92,10 @@ This repository mainly contain notes that I further enhance my programming capab
   <tr>
     <td valign="center" align='center'>Esc-b</td>
     <td valign="center" align='center'>Insert a cell below</td>
+  </tr>
+  <tr>
+    <td valign="center" align='center'>Esc-d-d</td>
+    <td valign="center" align='center'>Delete current cell</td>
   </tr>
   <tr>
     <td valign="center" align='center'>Esc-m</td>
@@ -166,26 +170,37 @@ This repository mainly contain notes that I further enhance my programming capab
     <td valign="center" align='center'>Ctrl-b-[</td>
     <td valign="center" align='center'>Enter scroll mode within tmux</td>
   </tr>
+  <tr>
+    <td valign="center" align='center'>Ctrl-q[</td>
+    <td valign="center" align='center'>Commemnt/uncomment a/multiple lines</td>
+    <td valign="center" align='center' rowspan=3>Notepad++<sup> 4</sup></td>
+  </tr>
+  <tr>
+    <td valign="center" align='center'>Ctrl-d</td>
+    <td valign="center" align='center'>Duplicte current line</td>
+  </tr>
+  <tr>
+    <td valign="center" align='center'>Ctrl-l</td>
+    <td valign="center" align='center'>delete current line</td>
+  </tr>
+  <tr>
+    <td valign="center" align='center'>Esc-Ctrl-V-Shift-I-'#'-Esc[</td>
+    <td valign="center" align='center'>Commemnt/uncomment a/multiple lines</td>
+    <td valign="center" align='center' rowspan=3>Vim<sup> 5</sup></td>
+  </tr>
+  <tr>
+    <td valign="center" align='center'>Esc-[Shift]V-arrows-y/d-[Shift]p</td>
+    <td valign="center" align='center'>Copy/cut and paste a/multiple lines or certain part of codes</td>
+  </tr>
 </table>
 
-- <sup>1 </sup> [Link](https://support.microsoft.com/en-gb/help/12445/windows-keyboard-shortcuts)
+- <sup>1 </sup> [Link 1](https://support.microsoft.com/en-gb/help/12445/windows-keyboard-shortcuts) [Link 2: Use the Windows Snipping Tool to Capture Popup Menus](https://helpdeskgeek.com/how-to/use-the-windows-snipping-tool-to-capture-popup-menus/)
 - <sup>2 </sup> [Link 1](https://www.cheatography.com/weidadeyue/cheat-sheets/jupyter-notebook/pdf_bw/) [Link 2](https://www.dataquest.io/blog/jupyter-notebook-tips-tricks-shortcuts/) [Link 3](https://towardsdatascience.com/jypyter-notebook-shortcuts-bf0101a98330)
 - <sup>3 </sup> [Link 1: `tmux`](https://www.hamvocke.com/blog/a-quick-and-easy-guide-to-tmux/) [Link 2](https://superuser.com/questions/209437/how-do-i-scroll-in-tmux)
+- <sup>4 </sup> [Link](http://www.keyxl.com/aaacd5a/43/Notepad-Plus-text-editor-software-keyboard-shortcuts.htm)
+- <sup>5 </sup> [Link 1: comment/uncomment](https://discuss.devopscube.com/t/how-to-comment-and-uncomment-multiple-line-vi-terminal-editor/64) [Link 2](https://stackoverflow.com/questions/73319/duplicate-a-whole-line-in-vim)
 - This table will ignore common keyboard shortcuts like Ctrl-c, Ctrl-x, Ctrl-v, Ctrl-z, Ctrl-y, Ctrl-a, Ctrl-s, F2, F5, -/= for Sougou, and etc.
 
-### VERY useful short-cuts in Bash, Vim, and etc.
-
-#### Vim
-1. [Comment and uncomment multiple lines in Vim](https://discuss.devopscube.com/t/how-to-comment-and-uncomment-multiple-line-vi-terminal-editor/64).
-2. [Copy and paste in Vim](https://stackoverflow.com/questions/73319/duplicate-a-whole-line-in-vim). Use (Shift)V plus arrows to do block selection!
-
-#### Notepad++
-1. [Notepad++ shortcuts](http://www.keyxl.com/aaacd5a/43/Notepad-Plus-text-editor-software-keyboard-shortcuts.htm). Use Ctrl-d and Ctrl-l more later.
-
-
-#### Windows plus Google-Chrome
-- [Use the Windows Snipping Tool to Capture Popup Menus](https://helpdeskgeek.com/how-to/use-the-windows-snipping-tool-to-capture-popup-menus/)
-- [Use Alt-Tab, Ctrl+Tab (plus Ctrl-1 and Ctrl-9), Ctrl-T, Ctrl-W more in the future](https://www.zhihu.com/question/19555789)
 
 ### Good sentences to remember (NB These will be hopefully moved my new personal website in the future)
 1. Everything should be made as simple as possible, but no simpler. (Albert Einstein)
