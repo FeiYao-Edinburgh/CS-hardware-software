@@ -72,6 +72,47 @@ This repository mainly contain notes that I further enhance my programming capab
     <td valign="center" align='center'>Ctrl-/</td>
     <td valign="center" align='center'>Comment/uncomment a line or multiple lines</td>
   </tr>
+  <tr>
+    <td valign="center" align='center'>Esc-c</td>
+    <td valign="center" align='center'>Copy a cell</td>
+    <td valign="center" align='center' rowspan=10>Jupyter Notebook</td>
+  </tr>
+  <tr>
+    <td valign="center" align='center'>Esc-x</td>
+    <td valign="center" align='center'>Cut a cell</td>
+  </tr>
+  <tr>
+    <td valign="center" align='center'>Esc-v</td>
+    <td valign="center" align='center'>Paste a cutted/copied cell</td>
+  </tr>
+  <tr>
+    <td valign="center" align='center'>Esc-a</td>
+    <td valign="center" align='center'>Insert a cell above</td>
+  </tr>
+  <tr>
+    <td valign="center" align='center'>Esc-b</td>
+    <td valign="center" align='center'>Insert a cell below</td>
+  </tr>
+  <tr>
+    <td valign="center" align='center'>Esc-m</td>
+    <td valign="center" align='center'>Switch to Markdown</td>
+  </tr>
+  <tr>
+    <td valign="center" align='center'>Esc-y</td>
+    <td valign="center" align='center'>Switch to code</td>
+  </tr>
+  <tr>
+    <td valign="center" align='center'>Ctrl-[</td>
+    <td valign="center" align='center'>Unindent a/multiple lines</td>
+  </tr>
+  <tr>
+    <td valign="center" align='center'>Ctrl-]</td>
+    <td valign="center" align='center'>Indent a/multiple lines</td>
+  </tr>
+  <tr>
+    <td valign="center" align='center'>Ctrl-/</td>
+    <td valign="center" align='center'>Comment/uncomment a/multiple lines</td>
+  </tr>
 </table>
 <sup>1</sup> https://support.microsoft.com/en-gb/help/12445/windows-keyboard-shortcuts
 
