@@ -75,7 +75,7 @@ This repository mainly contain notes that I further enhance my programming capab
   <tr>
     <td valign="center" align='center'>Esc-c</td>
     <td valign="center" align='center'>Copy a cell</td>
-    <td valign="center" align='center' rowspan=10>Jupyter Notebook<sup> 2</sup></td>
+    <td valign="center" align='center' rowspan=12>Jupyter Notebook<sup> 2</sup></td>
   </tr>
   <tr>
     <td valign="center" align='center'>Esc-x</td>
@@ -113,30 +113,67 @@ This repository mainly contain notes that I further enhance my programming capab
     <td valign="center" align='center'>Ctrl-/</td>
     <td valign="center" align='center'>Comment/uncomment a/multiple lines</td>
   </tr>
+  <tr>
+    <td valign="center" align='center'>Command? (e.g. np.mean?)</td>
+    <td valign="center" align='center'>Display the command docstring (VERY helpful)</td>
+  </tr>
+  <tr>
+    <td valign="center" align='center'>! pwd, ls, cd, and etc.</td>
+    <td valign="center" align='center'>Linux commands (note that most frequently used ones do not necessarily need !)</td>
+  </tr>
+  <tr>
+    <td valign="center" align='center'>Ctrl-w</td>
+    <td valign="center" align='center'>Deletes word by word backward</td>
+    <td valign="center" align='center' rowspan=11>Bash<sup> 3</sup></td>
+  </tr>
+  <tr>
+    <td valign="center" align='center'>Ctrl-u</td>
+    <td valign="center" align='center'>Deletes from the beginning to the position of the cursor of the line</td>
+  </tr>
+  <tr>
+    <td valign="center" align='center'>Ctrl-k</td>
+    <td valign="center" align='center'>Deletes from the position of the cursor to the end of the line</td>
+  </tr>
+  <tr>
+    <td valign="center" align='center'>Ctrl-y</td>
+    <td valign="center" align='center'>Paste the deleted/cutted lines from Ctrl-w/u/k</td>
+  </tr>
+  <tr>
+    <td valign="center" align='center'>Ctrl-left-arrow (or Alt-b)</td>
+    <td valign="center" align='center'>Moves cursor back one word. Also works for markdown!</td>
+  </tr>
+  <tr>
+    <td valign="center" align='center'>Ctrl-right-arrow (or Alt-c)</td>
+    <td valign="center" align='center'>Moves cursor forward one word</td>
+  </tr>
+  <tr>
+    <td valign="center" align='center'>Ctrl-a</td>
+    <td valign="center" align='center'>Moves cursor back the beginning of the line</td>
+  </tr>
+  <tr>
+    <td valign="center" align='center'>Ctrl-e</td>
+    <td valign="center" align='center'>Moves cursor to the end of the line</td>
+  </tr>
+  <tr>
+    <td valign="center" align='center'>Ctrl-r</td>
+    <td valign="center" align='center'>Searching the history (Also works in IPyton)</td>
+  </tr>
+  <tr>
+    <td valign="center" align='center'>Shift-PgUp/PgDn/UpArrow/DnArrow</td>
+    <td valign="center" align='center'>page/line scroll up/down</td>
+  </tr>
+  <tr>
+    <td valign="center" align='center'>Ctrl-b-[</td>
+    <td valign="center" align='center'>Enter scroll mode within tmux</td>
+  </tr>
 </table>
 
-<sup>1 </sup> [Link](https://support.microsoft.com/en-gb/help/12445/windows-keyboard-shortcuts)
-
-<sup>2 </sup> [Link 1](https://www.cheatography.com/weidadeyue/cheat-sheets/jupyter-notebook/pdf_bw/) [Link 2](https://www.dataquest.io/blog/jupyter-notebook-tips-tricks-shortcuts/) [Link 3](https://towardsdatascience.com/jypyter-notebook-shortcuts-bf0101a98330)
-
-This table will ignore common keyboard shortcuts like Ctrl-c, Ctrl-x, Ctrl-v, Ctrl-z, Ctrl-y, Ctrl-a, Ctrl-s, F2, F5, -/= for Sougou, and etc.
+- <sup>1 </sup> [Link](https://support.microsoft.com/en-gb/help/12445/windows-keyboard-shortcuts)
+- <sup>2 </sup> [Link 1](https://www.cheatography.com/weidadeyue/cheat-sheets/jupyter-notebook/pdf_bw/) [Link 2](https://www.dataquest.io/blog/jupyter-notebook-tips-tricks-shortcuts/) [Link 3](https://towardsdatascience.com/jypyter-notebook-shortcuts-bf0101a98330)
+- <sup>3 </sup> [Link 1: `tmux`](https://www.hamvocke.com/blog/a-quick-and-easy-guide-to-tmux/) [Link 2](https://superuser.com/questions/209437/how-do-i-scroll-in-tmux)
+- This table will ignore common keyboard shortcuts like Ctrl-c, Ctrl-x, Ctrl-v, Ctrl-z, Ctrl-y, Ctrl-a, Ctrl-s, F2, F5, -/= for Sougou, and etc.
 
 ### VERY useful short-cuts in Bash, Vim, and etc.
-#### Bash
-1. Ctrl-w: deletes word by word backward.
-2. Ctrl-u: deletes from the beginning to the position of the cursor of the line.
-3. Ctrl-k: deletes from the position of the cursor to the end of the line
-4. Ctrl-y: to paste the deleted/cutted lines from 1, 2, and 3.
-5. Ctrl-left-arrow (or Alt-b): moves cursor back one word. Also works for markdown!
-6. Ctrl-right-arrow (or Alt-c): moves cursor forward one word.
-7. Ctrl-a: moves cursor back the beginning of the line.
-8. Ctrl-e: moves cursor to the end of the line.
-9. Ctrl-r: Searching the history.
-10. Shift-PgUp: pge scroll up.
-11. Shift-PgDn: pge scroll down.
-12. Shift-up-arrow: line scroll up.
-13. Shift-down-arrow: line scroll down.
-14. When within [`tmux`](https://www.hamvocke.com/blog/a-quick-and-easy-guide-to-tmux/), [using Ctrl-b-\[ to enter scroll mode and then PgUp/PgDn/Up-arrow/Down-arrow should work fine as in Vim. Using q to quit scroll mode.](https://superuser.com/questions/209437/how-do-i-scroll-in-tmux).
 
 #### Vim
 1. [Comment and uncomment multiple lines in Vim](https://discuss.devopscube.com/t/how-to-comment-and-uncomment-multiple-line-vi-terminal-editor/64).
