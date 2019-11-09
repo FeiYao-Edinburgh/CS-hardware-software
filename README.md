@@ -114,7 +114,9 @@ This repository mainly contain notes that I further enhance my programming capab
     <td valign="center" align='center'>Comment/uncomment a/multiple lines</td>
   </tr>
 </table>
+
 <sup>1 </sup> [Link](https://support.microsoft.com/en-gb/help/12445/windows-keyboard-shortcuts)
+
 <sup>2 </sup> [Link 1](https://www.cheatography.com/weidadeyue/cheat-sheets/jupyter-notebook/pdf_bw/) [Link 2](https://www.dataquest.io/blog/jupyter-notebook-tips-tricks-shortcuts/) [Link 3](https://towardsdatascience.com/jypyter-notebook-shortcuts-bf0101a98330)
 
 This table will ignore common keyboard shortcuts like Ctrl-c, Ctrl-x, Ctrl-v, Ctrl-z, Ctrl-y, Ctrl-a, Ctrl-s, F2, F5, -/= for Sougou, and etc.
