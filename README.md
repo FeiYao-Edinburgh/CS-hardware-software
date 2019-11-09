@@ -75,7 +75,7 @@ This repository mainly contain notes that I further enhance my programming capab
   <tr>
     <td valign="center" align='center'>Esc-c</td>
     <td valign="center" align='center'>Copy a cell</td>
-    <td valign="center" align='center' rowspan=10>Jupyter Notebook</td>
+    <td valign="center" align='center' rowspan=10>Jupyter Notebook<sup> 2</sup></td>
   </tr>
   <tr>
     <td valign="center" align='center'>Esc-x</td>
@@ -114,7 +114,8 @@ This repository mainly contain notes that I further enhance my programming capab
     <td valign="center" align='center'>Comment/uncomment a/multiple lines</td>
   </tr>
 </table>
-<sup>1</sup> https://support.microsoft.com/en-gb/help/12445/windows-keyboard-shortcuts
+<sup>1 </sup> [Link](https://support.microsoft.com/en-gb/help/12445/windows-keyboard-shortcuts)
+<sup>2 </sup> [Link 1](https://www.cheatography.com/weidadeyue/cheat-sheets/jupyter-notebook/pdf_bw/) [Link 2](https://www.dataquest.io/blog/jupyter-notebook-tips-tricks-shortcuts/) [Link 3](https://towardsdatascience.com/jypyter-notebook-shortcuts-bf0101a98330)
 
 This table will ignore common keyboard shortcuts like Ctrl-c, Ctrl-x, Ctrl-v, Ctrl-z, Ctrl-y, Ctrl-a, Ctrl-s, F2, F5, -/= for Sougou, and etc.
 
@@ -142,9 +143,6 @@ This table will ignore common keyboard shortcuts like Ctrl-c, Ctrl-x, Ctrl-v, Ct
 #### Notepad++
 1. [Notepad++ shortcuts](http://www.keyxl.com/aaacd5a/43/Notepad-Plus-text-editor-software-keyboard-shortcuts.htm). Use Ctrl-d and Ctrl-l more later.
 
-#### [Jupyter Notebook keyboard shortcuts](https://www.cheatography.com/weidadeyue/cheat-sheets/jupyter-notebook/pdf_bw/)
-#### [A/B/M/Y is extremely useful in Jupyter Notebook](https://www.dataquest.io/blog/jupyter-notebook-tips-tricks-shortcuts/)
-#### [X/C/V() is extremely useful in Jupyter Notebook](https://towardsdatascience.com/jypyter-notebook-shortcuts-bf0101a98330)
 
 #### Windows plus Google-Chrome
 - [Use the Windows Snipping Tool to Capture Popup Menus](https://helpdeskgeek.com/how-to/use-the-windows-snipping-tool-to-capture-popup-menus/)
