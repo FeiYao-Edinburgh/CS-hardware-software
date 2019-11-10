@@ -75,7 +75,7 @@ This repository mainly contain notes that I further enhance my programming capab
   <tr>
     <td valign="center" align='center'>Esc-c</td>
     <td valign="center" align='center'>Copy a cell</td>
-    <td valign="center" align='center' rowspan=13>Jupyter Notebook<sup> 2</sup></td>
+    <td valign="center" align='center' rowspan=14>Jupyter Notebook<sup> 2</sup></td>
   </tr>
   <tr>
     <td valign="center" align='center'>Esc-x</td>
@@ -124,6 +124,10 @@ This repository mainly contain notes that I further enhance my programming capab
   <tr>
     <td valign="center" align='center'>! pwd, ls, cd, and etc.</td>
     <td valign="center" align='center'>Linux commands (note that most frequently used ones do not necessarily need !)</td>
+  </tr>
+  <tr>
+    <td valign="center" align='center'>Ctrl-Shift--</td>
+    <td valign="center" align='center'>Split the current cell into two from where your cursor is</td>
   </tr>
   <tr>
     <td valign="center" align='center'>Ctrl-w</td>
