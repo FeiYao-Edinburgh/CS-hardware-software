@@ -214,3 +214,6 @@ This repository mainly contain notes that I further enhance my programming capab
 ### Other resources
 - [World Map Wallpaper](https://wall.alphacoders.com/by_sub_category.php?id=239314&name=%E4%B8%96%E7%95%8C%E5%9C%B0%E5%9B%BE+%E5%A3%81%E7%BA%B8&lang=Chinese)
 
+- https://winaero.com/blog/clear-wallpaper-history-windows-10/
+- https://zhidao.baidu.com/question/1672977174988586867.html
+- https://zhuanlan.zhihu.com/p/27429896
