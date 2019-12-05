@@ -17,6 +17,17 @@ Using [Jupyter Notebook provided by School of GeoSciences](https://www.geos.ed.a
 9. [Seems that sns.FacetGrid does not work well with plt.hist2d ...](https://github.com/mwaskom/seaborn/issues/321). [Also colorbar issues...](https://github.com/mwaskom/seaborn/issues/582). Hence for scatter density plotting, I may continue use subplots...or gridspec...
 10. [Top 50 matplotlib Visualizations](https://www.machinelearningplus.com/plots/top-50-matplotlib-visualizations-the-master-plots-python/#45.-Calendar-Heat-Map)
 
+### Installing Miniconda
+Assuming you want to install miniconda in `~/miniconda`, the whole process is as follows.
+1. Download [Miniconda3](https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh) with `curl https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -o Miniconda3-latest-Linux-x86_64.sh`.
+2. Install Miniconda3 using `bash Miniconda3-latest-Linux-x86_64.sh -p ~/miniconda/base`. (**NB** Allow conda init)
+3. Install packages like `conda install seaborn jupyter` (**NB** seaborn will make numpy, pandas, matplotlib, and so forth be automatically installed)
+4. Use `conda activate` and `conda deactivate` to switch using this version of Python or the default one.
+5. Use `ssh user@host -L 8999:localhost:8999` to login into the server, change into a directory that you would like to start from, and `conda activate; jupyter notebook --NotebookApp.token='' --no-browser --port=8999` to open a Jupyter notebook. Open the url within Google-Chrome or other browsers that you like.
+6. Now start enjoy programming with awesome Jupyter!
+
+**NB** Steps above are for minimum use of Jupyter. Environment controls are recommended when users are getting more familiar with Jupyter.
+
 ### Running a Python script
 Supposing your `helloworld.py` script has the following code.
 ```
