@@ -15,7 +15,7 @@ Assuming you want to install miniconda in `~/miniconda`, the whole process is as
 ### Good resources to follow
 1. [A Whirlwind Tour of Python](https://jakevdp.github.io/WhirlwindTourOfPython/)
 2. [Python Data Science Handbook (Highly Recommended for Scientists!)](https://jakevdp.github.io/PythonDataScienceHandbook/)
-3. [Intermediate Python](https://book.pythontips.com/en/latest/#) (\*arg and \*\*kwarg completed.)
+3. [Intermediate Python](https://book.pythontips.com/en/latest/#)
 4. [xarray: N-D labeled arrays and datasets in Python](http://xarray.pydata.org/en/stable/index.html)
 5. [xESMF: Universal Regridder for Geospatial Data](https://xesmf.readthedocs.io/en/latest/index.html)
 6. [GEOSChem-python-tutorial](https://github.com/geoschem/GEOSChem-python-tutorial)
