@@ -21,12 +21,11 @@ Using [Jupyter Notebook provided by School of GeoSciences](https://www.geos.ed.a
 Assuming you want to install miniconda in `~/miniconda`, the whole process is as follows.
 1. Download [Miniconda3](https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh) with `curl https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -o Miniconda3-latest-Linux-x86_64.sh`.
 2. Install Miniconda3 using `bash Miniconda3-latest-Linux-x86_64.sh -p ~/miniconda/base`. (**NB** Allow conda init)
+3. It is highly recommended to create a virtual environment to install and keep a series of packages independent, e.g. `conda create -p ~/miniconda/base/envs/geo`
 3. Install packages like `conda install seaborn jupyter` (**NB** seaborn will make numpy, pandas, matplotlib, and so forth be automatically installed)
-4. Use `conda activate` and `conda deactivate` to switch using this version of Python or the default one.
-5. Use `ssh user@host -L 8999:localhost:8999` to login into the server, change into a directory that you would like to start from, and `conda activate; jupyter notebook --NotebookApp.token='' --no-browser --port=8999` to open a Jupyter notebook. Open the url within Google-Chrome or other browsers that you like.
-6. Now start enjoy programming with awesome Jupyter!
-
-**NB** Steps above are for minimum use of Jupyter. Environment controls are recommended when users are getting more familiar with Jupyter.
+4. Use `conda activate geo` and `conda deactivate` to switch using geo Python or not. Use `conda activate base` and `conda deactivate` to switch using base Python or not. The latter is seldom used.
+5. Use `ssh user@host -L 8999:localhost:8999` to login into the server, change into a directory (e.g. `mkdir ~/test; cd ~/test`) that you would like to start from, and `conda activate geo; jupyter notebook --NotebookApp.token='' --no-browser --port=8999` to open a Jupyter notebook. Open the url within Google-Chrome or other browsers that you like.
+6. Now start enjoy programming with awesome Jupyter. Finish your work by saving `.ipynb` files and close related browser pages. Back to the terminal, use `Ctrl-c` to shut down the server and `Ctrl-d` to exit from the terminal if applicable.
 
 ### Running a Python script
 Supposing your `helloworld.py` script has the following code.
