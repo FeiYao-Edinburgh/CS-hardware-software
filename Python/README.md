@@ -5,7 +5,7 @@ Using [Jupyter Notebook provided by School of GeoSciences](https://www.geos.ed.a
 ### Installing Miniconda
 Assuming you want to install miniconda in `~/miniconda`, the whole process is as follows.
 1. Download [Miniconda3](https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh) with `curl https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -o Miniconda3-latest-Linux-x86_64.sh`.
-2. Install Miniconda3 using `bash Miniconda3-latest-Linux-x86_64.sh -p ~/miniconda/base`. (**NB** Allow conda init)
+2. Install Miniconda3 using `bash Miniconda3-latest-Linux-x86_64.sh -p ~/miniconda/base`. (**NB** Allow conda init or not are both fine)
 3. It is highly recommended to create a virtual environment to install and keep a series of packages independent, e.g. `conda create -p ~/miniconda/base/envs/geo`. Activate it using `conda activate geo`.
 3. Install packages under the geo virtual environment, e.g. `conda install seaborn jupyter` (**NB** seaborn will make numpy, pandas, matplotlib, and so forth be automatically installed)
 4. Use `conda activate geo` and `conda deactivate` to switch using geo Python or not. Use `conda activate base` and `conda deactivate` to switch using base Python or not. The latter is seldom used.
