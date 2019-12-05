@@ -20,17 +20,7 @@ Assuming you want to install miniconda in `~/miniconda`, the whole process is as
 5. [xESMF: Universal Regridder for Geospatial Data](https://xesmf.readthedocs.io/en/latest/index.html)
 6. [GEOSChem-python-tutorial](https://github.com/geoschem/GEOSChem-python-tutorial)
 
-
-### Address the following a.s.a.p...
-7. [Cartopy Plotting Galleries I](https://mp.weixin.qq.com/s/VLRAwsNNdX7Yvnxt-JVHFA), [II](https://stackoverflow.com/questions/55598249/showing-alaska-and-hawaii-in-cartopy-map)
-8. [Data science with Python: 8 ways to do linear regression and measure their speed (also more reading on differences between linear and non-linear regression models, why R^2 cannot always be used for assess model's capabilities (residual plot is surely needed)...)](https://www.freecodecamp.org/news/data-science-with-python-8-ways-to-do-linear-regression-and-measure-their-speed-b5577d75f8b/)
-9. [Editing right ylabels in seaborn FacetGrid plots](https://cduvallet.github.io/posts/2018/11/facetgrid-ylabel-access)
-10. [Seems that sns.FacetGrid does not work well with plt.hist2d ...](https://github.com/mwaskom/seaborn/issues/321). [Also colorbar issues...](https://github.com/mwaskom/seaborn/issues/582). Hence for scatter density plotting, I may continue use subplots...or gridspec...
-  - Already solved...
-11. [Top 50 matplotlib Visualizations](https://www.machinelearningplus.com/plots/top-50-matplotlib-visualizations-the-master-plots-python/#45.-Calendar-Heat-Map)
-
-
-### Running a Python script
+### Running a stand-alone Python script
 Supposing your `helloworld.py` script has the following code.
 ```
 print("Hello World")
@@ -41,6 +31,15 @@ You can easily run it by typing `python helloworld.py` as long as `python` inter
 print("Hello World")
 ```
 The `#!` character sequence is, in fact, a special construct called a shebang. The shebang is used to tell the system the name of the interpreter that should be used to execute the script that follows. You can use `which python` to show the location of your interpreters.
+
+
+### Address the following a.s.a.p...
+7. [Cartopy Plotting Galleries I](https://mp.weixin.qq.com/s/VLRAwsNNdX7Yvnxt-JVHFA), [II](https://stackoverflow.com/questions/55598249/showing-alaska-and-hawaii-in-cartopy-map)
+8. [Data science with Python: 8 ways to do linear regression and measure their speed (also more reading on differences between linear and non-linear regression models, why R^2 cannot always be used for assess model's capabilities (residual plot is surely needed)...)](https://www.freecodecamp.org/news/data-science-with-python-8-ways-to-do-linear-regression-and-measure-their-speed-b5577d75f8b/)
+9. [Editing right ylabels in seaborn FacetGrid plots](https://cduvallet.github.io/posts/2018/11/facetgrid-ylabel-access)
+10. [Seems that sns.FacetGrid does not work well with plt.hist2d ...](https://github.com/mwaskom/seaborn/issues/321). [Also colorbar issues...](https://github.com/mwaskom/seaborn/issues/582). Hence for scatter density plotting, I may continue use subplots...or gridspec...
+  - Already solved...
+11. [Top 50 matplotlib Visualizations](https://www.machinelearningplus.com/plots/top-50-matplotlib-visualizations-the-master-plots-python/#45.-Calendar-Heat-Map)
 
 ### Careats/tips when using Python
 - When we assign a list (or an array) to another list (or anpother array), the interpreter in fact creates a pointer under the hood. Therefore, we must be VERY careful as chaging the values of the assigned list/array will also lead to value changes in the original list (array). To copy a real list/array, use `a=b.copy()` for list and `a=np.copy(b)`. **This problem also goes into slicing for array but not list, explained in p.46 in Python Data Science Handbook.**
