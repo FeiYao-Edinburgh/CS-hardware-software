@@ -2,6 +2,16 @@
 
 Using [Jupyter Notebook provided by School of GeoSciences](https://www.geos.ed.ac.uk/notebook) to learn and practice.
 
+### Installing Miniconda
+Assuming you want to install miniconda in `~/miniconda`, the whole process is as follows.
+1. Download [Miniconda3](https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh) with `curl https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -o Miniconda3-latest-Linux-x86_64.sh`.
+2. Install Miniconda3 using `bash Miniconda3-latest-Linux-x86_64.sh -p ~/miniconda/base`. (**NB** Allow conda init)
+3. It is highly recommended to create a virtual environment to install and keep a series of packages independent, e.g. `conda create -p ~/miniconda/base/envs/geo`. Activate it using `conda activate geo`.
+3. Install packages under the geo virtual environment, e.g. `conda install seaborn jupyter` (**NB** seaborn will make numpy, pandas, matplotlib, and so forth be automatically installed)
+4. Use `conda activate geo` and `conda deactivate` to switch using geo Python or not. Use `conda activate base` and `conda deactivate` to switch using base Python or not. The latter is seldom used.
+5. Use `ssh user@host -L 8999:localhost:8999` to re-login into the server, change into a directory (e.g. `mkdir ~/test; cd ~/test`) that you would like to start from, and `conda activate geo; jupyter notebook --NotebookApp.token='' --no-browser --port=8999` to open a Jupyter notebook. Open the url within Google-Chrome or other browsers that you like.
+6. Now start enjoy programming with awesome Jupyter. Finish your work by saving `.ipynb` files and close related browser pages. Back to the terminal, use `Ctrl-c` to shut down the server and `Ctrl-d` to exit from the terminal if applicable.
+
 ### Good resources to follow
 1. [A Whirlwind Tour of Python](https://jakevdp.github.io/WhirlwindTourOfPython/)
 2. [Python Data Science Handbook (Highly Recommended for Scientists!)](https://jakevdp.github.io/PythonDataScienceHandbook/)
@@ -17,15 +27,6 @@ Using [Jupyter Notebook provided by School of GeoSciences](https://www.geos.ed.a
 9. [Seems that sns.FacetGrid does not work well with plt.hist2d ...](https://github.com/mwaskom/seaborn/issues/321). [Also colorbar issues...](https://github.com/mwaskom/seaborn/issues/582). Hence for scatter density plotting, I may continue use subplots...or gridspec...
 10. [Top 50 matplotlib Visualizations](https://www.machinelearningplus.com/plots/top-50-matplotlib-visualizations-the-master-plots-python/#45.-Calendar-Heat-Map)
 
-### Installing Miniconda
-Assuming you want to install miniconda in `~/miniconda`, the whole process is as follows.
-1. Download [Miniconda3](https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh) with `curl https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -o Miniconda3-latest-Linux-x86_64.sh`.
-2. Install Miniconda3 using `bash Miniconda3-latest-Linux-x86_64.sh -p ~/miniconda/base`. (**NB** Allow conda init)
-3. It is highly recommended to create a virtual environment to install and keep a series of packages independent, e.g. `conda create -p ~/miniconda/base/envs/geo`. Activate it using `conda activate geo`.
-3. Install packages under the geo virtual environment, e.g. `conda install seaborn jupyter` (**NB** seaborn will make numpy, pandas, matplotlib, and so forth be automatically installed)
-4. Use `conda activate geo` and `conda deactivate` to switch using geo Python or not. Use `conda activate base` and `conda deactivate` to switch using base Python or not. The latter is seldom used.
-5. Use `ssh user@host -L 8999:localhost:8999` to re-login into the server, change into a directory (e.g. `mkdir ~/test; cd ~/test`) that you would like to start from, and `conda activate geo; jupyter notebook --NotebookApp.token='' --no-browser --port=8999` to open a Jupyter notebook. Open the url within Google-Chrome or other browsers that you like.
-6. Now start enjoy programming with awesome Jupyter. Finish your work by saving `.ipynb` files and close related browser pages. Back to the terminal, use `Ctrl-c` to shut down the server and `Ctrl-d` to exit from the terminal if applicable.
 
 ### Running a Python script
 Supposing your `helloworld.py` script has the following code.
