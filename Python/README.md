@@ -2,7 +2,7 @@
 
 Using [Jupyter Notebook provided by School of GeoSciences](https://www.geos.ed.ac.uk/notebook) to learn and practice.
 
-### Installing Miniconda
+### Installing_Miniconda
 Assuming you want to install miniconda in `~/miniconda`, the whole process is as follows.
 1. Download [Miniconda3](https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh) with `curl https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -o Miniconda3-latest-Linux-x86_64.sh`.
 2. Install Miniconda3 using `bash Miniconda3-latest-Linux-x86_64.sh -p ~/miniconda/base`. (**NB** Allow conda init or not are both fine)
