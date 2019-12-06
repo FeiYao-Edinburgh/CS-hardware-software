@@ -197,7 +197,7 @@ This repository mainly contain notes that I further enhance my programming capab
 </table>
 
 - <sup>1 </sup> [Link 1](https://support.microsoft.com/en-gb/help/12445/windows-keyboard-shortcuts) [Link 2: Use the Windows Snipping Tool to Capture Popup Menus](https://helpdeskgeek.com/how-to/use-the-windows-snipping-tool-to-capture-popup-menus/)
-- <sup>2 </sup> [Link 1](https://www.cheatography.com/weidadeyue/cheat-sheets/jupyter-notebook/pdf_bw/) [Link 2](https://www.dataquest.io/blog/jupyter-notebook-tips-tricks-shortcuts/) [Link 3](https://towardsdatascience.com/jypyter-notebook-shortcuts-bf0101a98330)
+- <sup>2 </sup> It can be directly found under Help -> Keyboard Shortcuts within your opened jupyter notebook!
 - <sup>3 </sup> [Link 1: `tmux`](https://www.hamvocke.com/blog/a-quick-and-easy-guide-to-tmux/) [Link 2](https://superuser.com/questions/209437/how-do-i-scroll-in-tmux)
 - <sup>4 </sup> [Link](http://www.keyxl.com/aaacd5a/43/Notepad-Plus-text-editor-software-keyboard-shortcuts.htm)
 - <sup>5 </sup> [Link 1: comment/uncomment](https://discuss.devopscube.com/t/how-to-comment-and-uncomment-multiple-line-vi-terminal-editor/64) [Link 2](https://stackoverflow.com/questions/73319/duplicate-a-whole-line-in-vim)
