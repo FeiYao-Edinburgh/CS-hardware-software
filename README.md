@@ -1,7 +1,5 @@
 This repository mainly contain notes that I further enhance my programming capabilities including Shell, Python, Fortran, Perl, and etc. It will also contain some notes on computer hardware knowledge, which is surely beneficial for deeply understanding the essence of programming. Moreover, it might also contain some notes on math as math is always the foundation of many algorithms.
 
-- [Core Python packages for Earth Science data](http://wiki.seas.harvard.edu/geos-chem/index.php/Python_tools_for_use_with_GEOS-Chem#Core_Python_packages_for_Earth_Science_data) (read xarray asap)
-
 ### Awesome Keyboard Shortcuts to Make Life easier!!!
 <table>
   <caption class="cap"></caption>
