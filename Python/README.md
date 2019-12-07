@@ -15,10 +15,12 @@ Assuming you want to install miniconda in `~/miniconda`, the whole process is as
 ### Good resources to follow
 1. [A Whirlwind Tour of Python](https://jakevdp.github.io/WhirlwindTourOfPython/)
 2. [Python Data Science Handbook (Highly Recommended for Scientists!)](https://jakevdp.github.io/PythonDataScienceHandbook/)
-3. [Intermediate Python](https://book.pythontips.com/en/latest/#)
+3. [GEOSChem-python-tutorial](https://github.com/geoschem/GEOSChem-python-tutorial)
 4. [xarray: N-D labeled arrays and datasets in Python](http://xarray.pydata.org/en/stable/index.html)
-5. [xESMF: Universal Regridder for Geospatial Data](https://xesmf.readthedocs.io/en/latest/index.html)
-6. [GEOSChem-python-tutorial](https://github.com/geoschem/GEOSChem-python-tutorial)
+5. [Jupyter Notebook](https://ipywidgets.readthedocs.io/en/stable/index.html)
+5. [Intermediate Python](https://book.pythontips.com/en/latest/#)
+6. [xESMF: Universal Regridder for Geospatial Data](https://xesmf.readthedocs.io/en/latest/index.html)
+7. [Miniconda](https://docs.conda.io/en/latest/miniconda.html)
 
 ### Running a stand-alone Python script
 Supposing your `helloworld.py` script has the following code.
