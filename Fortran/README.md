@@ -12,11 +12,7 @@ When it invloves module compilation, two ways can be used.
 
 In Practical Exercise 5, I used both methods for Question 1 (Compiling Simple_Stats.f90 produced simple_stats.mod and Simple_Stats.o; compiling encapsulation.f90 with Simple_Stats.o produced encapsulation; compiling Simple_Stats_User.f90 with Simple_Stats.o produced Simple_Stats_User. Compiling Simple_Stats_User_Combined.f90 produced Simple_Stats_User_Combined) and method 2 for the remaining questions.
 
-### Fortran Compilation using Makefile
-[Following this](http://swcarpentry.github.io/make-novice/) and [this](https://github.com/seisman/how-to-write-makefile) ASAP.
+### Makefile tutorials
+- [Software carpentry makefile tutorial](http://swcarpentry.github.io/make-novice/)
+- [GitHub makefile tutorial](https://github.com/seisman/how-to-write-makefile)
 
-### Parallel Computing with OpenMP
-To be added...
-
-### Fortran Programming with GEOS-Chem
-[Developing GEOS-Chem](http://wiki.seas.harvard.edu/geos-chem/index.php/Developing_GEOS-Chem)
