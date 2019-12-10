@@ -12,6 +12,8 @@ Assuming you want to install miniconda in `~/miniconda`, the whole process is as
 5. Use `ssh user@host -L 8999:localhost:8999` to re-login into the server, change into a directory (e.g. `mkdir ~/test; cd ~/test`) that you would like to start from, and `conda activate geo; jupyter notebook --NotebookApp.token='' --no-browser --port=8999` to open a Jupyter notebook. Open the url `http://localhost:8999/` within Google-Chrome or other browsers that you like. (**NB** this is for server which is at single hop distance. Things are a bit complicated for server which is at multiple hop distance and hence are ignored here.)
 6. Now start enjoy programming with awesome Jupyter. Finish your work by saving `.ipynb` files and close related browser pages. Back to the terminal, use `Ctrl-c` to shut down the server and `Ctrl-d` to exit from the terminal.
 
+**NB** The above process can be completed omitted on supercomputers such as [Eddie](https://www.wiki.ed.ac.uk/display/ResearchServices/Anaconda) since it has already provided us many versions of anaconda to use!
+
 ### Good resources to follow
 1. [A Whirlwind Tour of Python](https://jakevdp.github.io/WhirlwindTourOfPython/)
 2. [Python Data Science Handbook (Highly Recommended for Scientists!)](https://jakevdp.github.io/PythonDataScienceHandbook/)
