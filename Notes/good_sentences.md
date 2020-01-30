@@ -1,4 +1,4 @@
-### Good sentences to remember (NB These will be hopefully moved my new personal website in the future)
+### Good sentences to remember (NB These will be hopefully moved "Sentences that I like" of my new personal website in the future)
 1. Everything should be made as simple as possible, but no simpler. (Albert Einstein)
 2. Premature optimization is the root of all evil. (Donald Knuth)
 3. One guiding principal of Python/Fortran code is that "explicit is better than implicit".
