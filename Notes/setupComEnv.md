@@ -2,7 +2,7 @@
 Assuming you want to install miniconda in `/exports/csce/datastore/geos/users/s1855106/miniconda`, the whole process is as follows.
 1. Download [Miniconda3](https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh) with `curl https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -o Miniconda3-latest-Linux-x86_64.sh`.
 2. Install Miniconda3 using `bash Miniconda3-latest-Linux-x86_64.sh -p /exports/csce/datastore/geos/users/s1855106/miniconda/base`. (**NB** Allow conda init)
-3. Install `geo` env using `conda env create -vv -n geo -f environment.yml`. (**NB** `conda env create` as a whole is a command whose options can be checked by using `conda env create --help`. For convenience, `environment.yml` can be downloaded from https://github.com/geoschem/GEOSChem-python-tutorial. [`environment.yml` can surely be created manually or by `conda env export > environment.yml`](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#))
+3. Install `geo` env using `conda env create -vv -n geo -f environment.yml`. (**NB** `conda env create` as a whole is a command whose options can be checked by using `conda env create --help`. For convenience, `environment.yml` can be downloaded from [GEOSChem-python-tutorial](https://github.com/geoschem/GEOSChem-python-tutorial). [We can also create `environment.yml` manually or by `conda env export > environment.yml`](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#))
 4. Activate geo env with `conda activate geo` (**NB** In a later time I have defined a short-cut, `geo`, for this command).
 5. (optional) Install other packages like gdal and so forth with `conda install gdal numba` or `pip install calmap` if necessary.
 6. (optional) [Installing `somoclu` from the `conda-forge` channel](https://github.com/conda-forge/somoclu-feedstock) can help avoid warning when importing it, which is the case for `pip install somoclu` for the moment.
@@ -10,13 +10,13 @@ Assuming you want to install miniconda in `/exports/csce/datastore/geos/users/s1
 conda config --add channels conda-forge
 conda install somoclu
 ```
-7. Now Miniconda3 and geo env should be ready for use. When do not need geo env, `conda deactivate` (Similarly, I have defined a short-cut, `base`, for this command).
+7. Now Miniconda3 and geo env should be ready for use. When do not need geo env, `conda deactivate` (Similarly, I have defined a short-cut, `de`, for this command).
 
-**NB** Steps 5 and 6 are optional can surely be appended to `environment.yml`. They are described here to illustrate any circumstances whenever personal use of any special packages is needed.
+**NB** Steps 5 and 6 are optional and can surely be appended to `environment.yml`. They are described here to illustrate any circumstances whenever personal use of any special packages is needed.
 
 **NB** Upgrade `xesmf` to a higher version using `pip install --upgrade xesmf`. The higher version can regrid dataset automatically.
 
-**NB** The above process can be largely omitted on [Eddie](https://www.wiki.ed.ac.uk/display/ResearchServices/Anaconda) since it has already provided us many versions of anaconda to use!
+**NB** The above process can be largely omitted on [Eddie](https://www.wiki.ed.ac.uk/display/ResearchServices/Anaconda) since it has already provided us many versions of anaconda. Use `module available` and `module load` to look and use them!
 
 ### Configuring .bashrc to facilitate use of holmes, rebus, eddie, [JASMIN](https://accounts.jasmin.ac.uk/), and etc.
 1. Generate an SSH key pair. (a one-off effort for JASMIN use)
@@ -45,12 +45,11 @@ alias jupy='jupyter notebook --NotebookApp.token='' --no-browser --port=8999'
 
 # To conveniently switch between geo and base environment.
 alias geo='conda activate geo'
-alias base='conda deactivate'
+alias de='conda deactivate'
 
-# To conveniently switch between d21(holmes DataStore) and Research DataStore
-# export will make HDS and RDS global environment variables and hence can be used by sub-processes launched from that Shell.
-export HDS='/geos/d21/s1855106/'
-export RDS='/exports/csce/datastore/geos/users/s1855106'
+# To conveniently switch between my Research DataStore and group d21 personal space.
+alias cdr='cd /exports/csce/datastore/geos/users/s1855106/PhD-Edinburgh'
+alias cdg='cd /geos/d21/s1855106/'
 
 # auto "ls" after "cd".
 alias cd=cdls
@@ -69,9 +68,9 @@ fi
 3. Add the following commands to .bashrc stored on JASMIN. (a one-off effort)
 ```
 alias geo='conda activate geo'
-alias base='conda deactivate'
+alias de='conda deactivate'
 alias jupy='jupyter notebook --NotebookApp.token='' --no-browser --port=8999'
-export GWS='/gws/nopw/j04/nceo_generic/users/feiyao'
+alias cdg='cd /gws/nopw/j04/nceo_generic/users/feiyao'
 alias cd=cdls
 function cdls() {
 # first do 'cd'
@@ -88,7 +87,7 @@ fi
 4. Add the following commands to .bashrc stored on my personal computer. (a one-off effort)
 ```
 alias geos='ssh s1855106@ssh.geos.ed.ac.uk'
-alias pgeos='ssh -L 8996:localhost:8997 s1855106@ssh.geos.ed.ac.uk'
+alias pgeos='ssh -L 8996:localhost:8997 s1855106@ssh.geos.ed.ac.uk' # from which use port-forwarding to login into other machines again.
 alias pholmes='ssh -L 8997:localhost:8998 s1855106@ssh.geos.ed.ac.uk -t ssh -L 8998:localhost:8999 s1855106@holmes.geos.ed.ac.uk'
 alias prebus='ssh -L 8997:localhost:8998 s1855106@ssh.geos.ed.ac.uk -t ssh -L 8998:localhost:8999 s1855106@rebus.geos.ed.ac.uk'
 alias pburn='ssh -L 8997:localhost:8998 s1855106@ssh.geos.ed.ac.uk -t ssh -L 8998:localhost:8999 s1855106@burn.geos.ed.ac.uk'
@@ -97,7 +96,7 @@ alias pburn='ssh -L 8997:localhost:8998 s1855106@ssh.geos.ed.ac.uk -t ssh -L 899
 ```
 pholmes # office pholmes
 geo
-# Change to a directory where you would like work (e.g. cd $RDS/PhD-Edinburgh hence we can access all .ipynb files under $RDS/PhD-Edinburgh and its subdirectories).
+# Change to a directory where you would like work (e.g. cdr and hence we can access all .ipynb files under /exports/csce/datastore/geos/users/s1855106/PhD-Edinburgh and its subdirectories).
 jupy
 # Open http://localhost:8999/ in Google-Chrome
 ```
@@ -105,7 +104,7 @@ jupy
 ```
 pholmes # home pholmes. Run j1;j2;pjasmin in the office.
 geo
-# Change to a directory where you would like work (e.g. cd $RDS/PhD-Edinburgh).
+# Change to a directory where you would like work (e.g. cdr).
 jupy
 # Open http://localhost:8997/ in Google-Chrome
 # For home pjasmin, it is a little bit tricky, see the following.
@@ -114,7 +113,7 @@ j1
 j2
 pjasmin
 geo
-# Change to a directory where you would like work (e.g. cd $RDS/PhD-Edinburgh).
+# Change to a directory where you would like work (e.g. cdg).
 jupy
 # Open http://localhost:8996/ in Google-Chrome
 ```
