@@ -2,4 +2,4 @@ This repository mainly contain notes that I further enhance my programming capab
 
 - Book servers via [machine_request.xlsx](https://uoe-my.sharepoint.com/:x:/g/personal/msadiq_ed_ac_uk/EWFv05FmzMFKrHiouuB55_IBuIOHyGqvp4cO6jb1V1uIEg)
 - Talk via [slack](https://app.slack.com/client/T0H74KL49/C0H758BL6) occationally.
-- [Setting Up Computing Environment](https://github.com/FeiYao-Edinburgh/CS-hardware-software/blob/master/Notes/setupComEnv.md) (Remove notes in Python subdirectory later...)
+- [Setting Up Computing Environment](https://github.com/FeiYao-Edinburgh/CS-hardware-software/blob/master/Notes/setupComEnv.md)
