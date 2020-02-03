@@ -30,8 +30,6 @@ The `#!` character sequence is, in fact, a special construct called a shebang. T
 7. [Cartopy Plotting Galleries I](https://mp.weixin.qq.com/s/VLRAwsNNdX7Yvnxt-JVHFA), [II](https://stackoverflow.com/questions/55598249/showing-alaska-and-hawaii-in-cartopy-map)
 8. [Data science with Python: 8 ways to do linear regression and measure their speed (also more reading on differences between linear and non-linear regression models, why R^2 cannot always be used for assess model's capabilities (residual plot is surely needed)...)](https://www.freecodecamp.org/news/data-science-with-python-8-ways-to-do-linear-regression-and-measure-their-speed-b5577d75f8b/)
 9. [Editing right ylabels in seaborn FacetGrid plots](https://cduvallet.github.io/posts/2018/11/facetgrid-ylabel-access)
-10. [Seems that sns.FacetGrid does not work well with plt.hist2d ...](https://github.com/mwaskom/seaborn/issues/321). [Also colorbar issues...](https://github.com/mwaskom/seaborn/issues/582). Hence for scatter density plotting, I may continue use subplots...or gridspec...
-  - Already solved...
 11. [Top 50 matplotlib Visualizations](https://www.machinelearningplus.com/plots/top-50-matplotlib-visualizations-the-master-plots-python/#45.-Calendar-Heat-Map)
 
 ### Careats/tips when using Python
