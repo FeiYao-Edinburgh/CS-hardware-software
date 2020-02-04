@@ -1,3 +1,5 @@
+These can now be moved to my new website!
+
 ### Good sentences to remember (NB These will be hopefully moved "Sentences that I like" of my new personal website in the future)
 1. Everything should be made as simple as possible, but no simpler. (Albert Einstein)
 2. Premature optimization is the root of all evil. (Donald Knuth)
