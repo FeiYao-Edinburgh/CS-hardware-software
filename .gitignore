@@ -6,3 +6,6 @@ PyPI
 
 # Prevent *.pdf and *.pptx under Math dir
 Math/Book/
+
+# Prevent all pdf files
+*.pdf
