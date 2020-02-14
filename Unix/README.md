@@ -8,6 +8,7 @@
 7. [Syncing your fork to the original repository via the browser](https://github.com/KirstieJane/STEMMRoleModels/wiki/Syncing-your-fork-to-the-original-repository-via-the-browser)
 8. [Regular Expressions](https://v4.software-carpentry.org/regexp/index.html)
 9. gnuplot
+10. [String operations in Shell](https://www.tldp.org/LDP/abs/html/string-manipulation.html)
 
 ### Running a Shell script
 Supposing your `helloworld.sh` script has the following code.
