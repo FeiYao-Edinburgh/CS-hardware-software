@@ -1,6 +1,6 @@
 ### Good resources to follow
 1. [The Unix Shell](https://swcarpentry.github.io/shell-novice/)
-2. [Extra Unix Shell Material](http://swcarpentry.github.io/shell-extras/)
+2. [Extra Unix Shell Material](https://carpentries-incubator.github.io/shell-extras/)
 3. [Version Control with Git](https://swcarpentry.github.io/git-novice/)
 4. Markdown Basic Syntax [I](https://www.markdownguide.org/basic-syntax/), [II](https://help.github.com/en/articles/basic-writing-and-formatting-syntax)
 5. [linuxcast](https://www.youtube.com/playlist?list=PLrrWFMyom0IocKsc1ukKFxOljEg7IT_W3)
