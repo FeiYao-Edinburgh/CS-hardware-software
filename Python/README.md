@@ -1,17 +1,17 @@
 # Python
 
-Using [Jupyter Notebook provided by School of GeoSciences](https://www.geos.ed.ac.uk/notebook) to learn and practice.
+[Core Python packages for Earth Science data](http://wiki.seas.harvard.edu/geos-chem/index.php/Python_tools_for_use_with_GEOS-Chem#Core_Python_packages_for_Earth_Science_data). Using [Jupyter Notebook provided by School of GeoSciences](https://www.geos.ed.ac.uk/notebook) to learn and practice.
 
 ### Good resources to follow
 1. [A Whirlwind Tour of Python](https://jakevdp.github.io/WhirlwindTourOfPython/)
 2. [Python Data Science Handbook (Highly Recommended for Scientists!)](https://jakevdp.github.io/PythonDataScienceHandbook/)
+3. [Scipy Lecture Notes](http://scipy-lectures.org/index.html#) (Focus on 1.5 and 3.1 these days)
 3. [GEOSChem-python-tutorial](https://github.com/geoschem/GEOSChem-python-tutorial)
 4. [xarray: N-D labeled arrays and datasets in Python](http://xarray.pydata.org/en/stable/index.html)
-5. [Jupyter Notebook](https://ipywidgets.readthedocs.io/en/stable/index.html)
 6. [Intermediate Python](https://book.pythontips.com/en/latest/#)
-7. [xESMF: Universal Regridder for Geospatial Data](https://xesmf.readthedocs.io/en/latest/index.html)
-8. [Core Python packages for Earth Science data](http://wiki.seas.harvard.edu/geos-chem/index.php/Python_tools_for_use_with_GEOS-Chem#Core_Python_packages_for_Earth_Science_data)
+5. [Jupyter Notebook](https://ipywidgets.readthedocs.io/en/stable/index.html)
 9. [Miniconda](https://docs.conda.io/en/latest/miniconda.html)
+7. [xESMF: Universal Regridder for Geospatial Data](https://xesmf.readthedocs.io/en/latest/index.html)
 10. [Editing right ylabels in seaborn FacetGrid plots](https://cduvallet.github.io/posts/2018/11/facetgrid-ylabel-access)
 11. [Top 50 matplotlib Visualizations](https://www.machinelearningplus.com/plots/top-50-matplotlib-visualizations-the-master-plots-python/#45.-Calendar-Heat-Map)
 12. [Cartopy Plotting Galleries I](https://mp.weixin.qq.com/s/VLRAwsNNdX7Yvnxt-JVHFA), [II](https://stackoverflow.com/questions/55598249/showing-alaska-and-hawaii-in-cartopy-map)
