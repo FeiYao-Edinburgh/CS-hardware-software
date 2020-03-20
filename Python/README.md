@@ -5,7 +5,7 @@
 ### Good resources to follow
 1. [A Whirlwind Tour of Python](https://jakevdp.github.io/WhirlwindTourOfPython/)
 2. [Python Data Science Handbook (Highly Recommended for Scientists!)](https://jakevdp.github.io/PythonDataScienceHandbook/)
-3. [Scipy Lecture Notes](http://scipy-lectures.org/index.html#) (Focus on 1.5 and 3.1 these days)
+3. [Scipy Lecture Notes](http://scipy-lectures.org/index.html#)
 4. [GEOSChem-python-tutorial](https://github.com/geoschem/GEOSChem-python-tutorial)
 5. [Classic statistics: Statsmodels](https://www.statsmodels.org/stable/index.html)
 6. [Bayesian statistics: PyMC](http://pymc-devs.github.io/pymc/)
