@@ -13,6 +13,7 @@
 8. [Intermediate Python](https://book.pythontips.com/en/latest/#)
 9. [Top 50 matplotlib Visualizations](https://www.machinelearningplus.com/plots/top-50-matplotlib-visualizations-the-master-plots-python/)
 10. [Cartopy Plotting Galleries](https://mp.weixin.qq.com/s/VLRAwsNNdX7Yvnxt-JVHFA)
+11. [Towards Data Science](https://towardsdatascience.com/)
 
 ### Running a stand-alone Python script
 Supposing your `helloworld.py` script has the following code.
