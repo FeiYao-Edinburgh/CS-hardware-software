@@ -6,16 +6,13 @@
 1. [A Whirlwind Tour of Python](https://jakevdp.github.io/WhirlwindTourOfPython/)
 2. [Python Data Science Handbook (Highly Recommended for Scientists!)](https://jakevdp.github.io/PythonDataScienceHandbook/)
 3. [Scipy Lecture Notes](http://scipy-lectures.org/index.html#) (Focus on 1.5 and 3.1 these days)
-3. [GEOSChem-python-tutorial](https://github.com/geoschem/GEOSChem-python-tutorial)
-4. [xarray: N-D labeled arrays and datasets in Python](http://xarray.pydata.org/en/stable/index.html)
-6. [Intermediate Python](https://book.pythontips.com/en/latest/#)
-5. [Jupyter Notebook](https://ipywidgets.readthedocs.io/en/stable/index.html)
-9. [Miniconda](https://docs.conda.io/en/latest/miniconda.html)
-7. [xESMF: Universal Regridder for Geospatial Data](https://xesmf.readthedocs.io/en/latest/index.html)
-10. [Editing right ylabels in seaborn FacetGrid plots](https://cduvallet.github.io/posts/2018/11/facetgrid-ylabel-access)
-11. [Top 50 matplotlib Visualizations](https://www.machinelearningplus.com/plots/top-50-matplotlib-visualizations-the-master-plots-python/#45.-Calendar-Heat-Map)
-12. [Cartopy Plotting Galleries I](https://mp.weixin.qq.com/s/VLRAwsNNdX7Yvnxt-JVHFA), [II](https://stackoverflow.com/questions/55598249/showing-alaska-and-hawaii-in-cartopy-map)
-13. [Data science with Python: 8 ways to do linear regression and measure their speed](https://www.freecodecamp.org/news/data-science-with-python-8-ways-to-do-linear-regression-and-measure-their-speed-b5577d75f8b/)
+4. [GEOSChem-python-tutorial](https://github.com/geoschem/GEOSChem-python-tutorial)
+5. [Classic statistics: Statsmodels](https://www.statsmodels.org/stable/index.html)
+6. [Bayesian statistics: PyMC](http://pymc-devs.github.io/pymc/)
+7. [xarray: N-D labeled arrays and datasets in Python](http://xarray.pydata.org/en/stable/index.html)
+8. [Intermediate Python](https://book.pythontips.com/en/latest/#)
+9. [Top 50 matplotlib Visualizations](https://www.machinelearningplus.com/plots/top-50-matplotlib-visualizations-the-master-plots-python/)
+10. [Cartopy Plotting Galleries](https://mp.weixin.qq.com/s/VLRAwsNNdX7Yvnxt-JVHFA)
 
 ### Running a stand-alone Python script
 Supposing your `helloworld.py` script has the following code.
