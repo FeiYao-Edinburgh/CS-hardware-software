@@ -20,5 +20,17 @@ Suppose the following input is supplied to the program: 34,67,55,33,12,98<br/>
 Then, the output should be: ['34', '67', '55', '33', '12', '98'], ('34', '67', '55', '33', '12', '98')
 - Hint: `input()` is the function to receive values typed from the console.
 
+### Question 5
+- Description: Write a program that calculates and prints the value according to the given formula:<br/>
+Q = Square root of [(2 * C * D)/H]<br/>
+Following are the fixed values of C and H:<br/>
+C is 50. H is 30.<br/>
+D is the variable whose values should be input to your program in a comma-separated sequence.<br/>
+Example<br/>
+Let us assume the following comma separated input sequence is given to the program:<br/>
+100,150,180<br/>
+The output of the program should be:<br/>
+18,22,24
+- Hint: `input()` is the function to receive values typed from the console. Also use built-in function from `math` module.
 
 
