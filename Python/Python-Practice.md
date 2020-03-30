@@ -17,7 +17,7 @@ Then, the output should be: {1: 1, 2: 4, 3: 9, 4: 16, 5: 25, 6: 36, 7: 49, 8: 64
 ### Question 4
 - Description: Write a program which accepts a sequence of comma-separated numbers from console and generate a list and a tuple which contains every number.<br/>
 Suppose the following input is supplied to the program: 34,67,55,33,12,98<br/>
-Then, the output should be: ['34', '67', '55', '33', '12', '98'], ('34', '67', '55', '33', '12', '98')
+Then, the output should be: [34, 67, 55, 33, 12, 98]
 - Hint: `input()` is the function to receive values typed from the console.
 
 ### Question 5
