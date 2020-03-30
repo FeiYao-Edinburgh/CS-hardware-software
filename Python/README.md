@@ -75,5 +75,4 @@ data.loc[idx[:,1],idx[:,2]]
 - p.75, `(inches < 0.2)` -> `(inches < 0.1)`?
 - 
 
-
-- [Python exercises](https://github.com/zhiwehu/Python-programming-exercises/blob/master/100%2B%20Python%20challenging%20programming%20exercises.txt)
+- [Python challenging programming exercises](https://github.com/zhiwehu/Python-programming-exercises/blob/master/100%2B%20Python%20challenging%20programming%20exercises.txt)
