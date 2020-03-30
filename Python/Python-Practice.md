@@ -46,5 +46,5 @@ The output of the program should be:<br/>
  888888888888888 
 99999999999999999
 ```
-- Hint: 
+- Hint: use string * operation (e.g. `'1'*3` will produce `111`) and list comprehension.
 
