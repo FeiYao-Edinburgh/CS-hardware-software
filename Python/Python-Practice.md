@@ -70,4 +70,5 @@ with open('your_text_file', 'r') as f:
 ### Question 8
 - Description: see the following picture.
 ![](https://github.com/FeiYao-Edinburgh/CS-hardware-software/blob/master/Python/needle.png)
+
 - Hint: use `math` and `random` functions.
