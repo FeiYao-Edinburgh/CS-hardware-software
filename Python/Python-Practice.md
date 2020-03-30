@@ -48,3 +48,14 @@ The output of the program should be:<br/>
 ```
 - Hint: use string * operation (e.g. `'1'*3` will produce `111`) and list comprehension.
 
+### Question 7
+- Description: Copy the following table into a text file and save it.
+```
+ID	Name	Age	Courses
+1001	John	23	Math,English
+1002	Susan	45	Chinese,Physics
+1003	Bush	67	English
+```
+Use Python to read the text file and construct the following dictionary.
+
+- Hint:
