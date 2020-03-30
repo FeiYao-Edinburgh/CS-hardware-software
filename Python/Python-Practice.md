@@ -57,5 +57,12 @@ ID	Name	Age	Courses
 1003	Bush	67	English
 ```
 Use Python to read the text file and construct the following dictionary.
-
-- Hint:
+![](https://github.com/FeiYao-Edinburgh/CS-hardware-software/blob/master/Python/dict.png)
+- Hint: Upon saving the test file, you can read its lines into a list like the following.
+```
+with open('your_text_file', 'r') as f:
+    lines = f.readlines()
+    # then you can process each line like the following
+    for line in lines:
+        # your codes
+```
