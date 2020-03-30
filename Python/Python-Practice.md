@@ -33,4 +33,18 @@ The output of the program should be:<br/>
 18,22,24
 - Hint: `input()` is the function to receive values typed from the console. Also use built-in function from `math` module.
 
+### Question 6
+- Description: Construct a string as simple as you can, assign it to a variable, and print it like the following.
+```
+        1        
+       222       
+      33333      
+     4444444     
+    555555555    
+   66666666666   
+  7777777777777  
+ 888888888888888 
+99999999999999999
+```
+- Hint: 
 
