@@ -71,3 +71,7 @@ with open('your_text_file', 'r') as f:
 - Description: see the following picture.<br/>
 ![](https://github.com/FeiYao-Edinburgh/CS-hardware-software/blob/master/Python/needle.png)
 - Hint: use `math` and `random` functions.
+
+### Question 9
+- Description: write a program calculating rental bills automatically that helps make life easier!
+
