@@ -9,11 +9,12 @@
 4. [GEOSChem-python-tutorial](https://github.com/geoschem/GEOSChem-python-tutorial)
 5. [Classic statistics: Statsmodels](https://www.statsmodels.org/stable/index.html)
 6. [Bayesian statistics: PyMC](http://pymc-devs.github.io/pymc/)
-7. [xarray: N-D labeled arrays and datasets in Python](http://xarray.pydata.org/en/stable/index.html)
-8. [Intermediate Python](https://book.pythontips.com/en/latest/#)
-9. [Top 50 matplotlib Visualizations](https://www.machinelearningplus.com/plots/top-50-matplotlib-visualizations-the-master-plots-python/)
-10. [Cartopy Plotting Galleries](https://mp.weixin.qq.com/s/VLRAwsNNdX7Yvnxt-JVHFA)
-11. [Towards Data Science](https://towardsdatascience.com/)
+7. [Spatial Data Science: PyAL (M(Multi-scale)GWR) implemented and try it asap](http://pysal.org/documentation)
+8. [xarray: N-D labeled arrays and datasets in Python](http://xarray.pydata.org/en/stable/index.html)
+9. [Intermediate Python](https://book.pythontips.com/en/latest/#)
+10. [Top 50 matplotlib Visualizations](https://www.machinelearningplus.com/plots/top-50-matplotlib-visualizations-the-master-plots-python/)
+11. [Cartopy Plotting Galleries](https://mp.weixin.qq.com/s/VLRAwsNNdX7Yvnxt-JVHFA)
+12. [Towards Data Science](https://towardsdatascience.com/)
 
 ### Running a stand-alone Python script
 Supposing your `helloworld.py` script has the following code.
