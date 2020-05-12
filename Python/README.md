@@ -1,6 +1,6 @@
 # Python
 
-[Core Python packages for Earth Science data](http://wiki.seas.harvard.edu/geos-chem/index.php/Python_tools_for_use_with_GEOS-Chem#Core_Python_packages_for_Earth_Science_data). Using [Jupyter Notebook provided by School of GeoSciences](https://www.geos.ed.ac.uk/notebook) to learn and practice.
+[Core Python packages for Earth Science data](http://wiki.seas.harvard.edu/geos-chem/index.php/Python_tools_for_use_with_GEOS-Chem#Core_Python_packages_for_Earth_Science_data). Using [Google Colab](https://colab.research.google.com/) or [Jupyter Notebook provided by School of GeoSciences](https://www.geos.ed.ac.uk/notebook) to learn and practice.
 
 ### Good resources to follow
 1. [A Whirlwind Tour of Python](https://jakevdp.github.io/WhirlwindTourOfPython/)
