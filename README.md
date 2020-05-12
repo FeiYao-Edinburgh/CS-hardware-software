@@ -2,3 +2,4 @@ This repository mainly contain notes that I further enhance my programming capab
 - If I have seen further, it is by standing on the shoulders on giants. -Isaac Newton
 - If I have seen further, it it by importing from the code of giants. -Definitely Not Isaac Newton
 - Open code, better science!
+- For day-to-day science exploration, speed of development is primary, and speed of execution is often secondary.
