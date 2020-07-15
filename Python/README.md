@@ -12,7 +12,7 @@ I can make a contribution to [calmap](https://pypi.org/project/calplot/) by addi
 5. [Classic statistics: Statsmodels](https://www.statsmodels.org/stable/index.html)
 6. [Bayesian statistics: PyMC](http://pymc-devs.github.io/pymc/)
 7. [Spatial modelling: PyAL](http://pysal.org/documentation)
-8. [xarray: N-D labeled arrays and datasets in Python](http://xarray.pydata.org/en/stable/index.html)
+8. [xarray: N-D labeled arrays and datasets in Python (Highligh Recommended for Geoscientists!)](http://xarray.pydata.org/en/stable/index.html)
 9. [Intermediate Python](https://book.pythontips.com/en/latest/#)
 10. [Top 50 matplotlib Visualizations](https://www.machinelearningplus.com/plots/top-50-matplotlib-visualizations-the-master-plots-python/)
 11. [Cartopy Plotting Galleries](https://mp.weixin.qq.com/s/VLRAwsNNdX7Yvnxt-JVHFA)
