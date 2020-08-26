@@ -13,7 +13,7 @@ Supposing your `helloworld.sh` script has the following code.
 ```
 echo "Hello World"
 ```
-You can easily run it by typing `bash helloworld.sh` as long as `bash` is in your `$PATH`. Alternatively, you can add the following code to the first line of the script and run it as `chmod u+x helloworld.sh; ./helloworld.sh`.
+You can easily run it by typing `bash helloworld.sh` as long as `bash` is in your `$PATH`. Alternatively, you can add the following code to the first line of the script (seems optional) and run it as `chmod u+x helloworld.sh; ./helloworld.sh`.
 ```
 #!/usr/bin/bash
 echo "Hello World"
