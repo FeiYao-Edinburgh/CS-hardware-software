@@ -8,6 +8,7 @@
 7. [Version Control with Git](https://swcarpentry.github.io/git-novice/)
 8. [Markdown Basic Syntax](https://www.markdownguide.org/basic-syntax/)
 9. [Makefile (TBL)](http://swcarpentry.github.io/make-novice/)
+10. [Eddie](https://www.wiki.ed.ac.uk/display/ResearchServices/Introduction+to+Eddie+Course+-+Exercises)
 
 ### Running a Shell script
 Supposing your `helloworld.sh` script has the following code.
