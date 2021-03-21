@@ -14,6 +14,7 @@
 9. [Intermediate Python](https://book.pythontips.com/en/latest/#)
 10. [Top 50 matplotlib Visualizations](https://www.machinelearningplus.com/plots/top-50-matplotlib-visualizations-the-master-plots-python/)
 11. [Cartopy Plotting Galleries](https://mp.weixin.qq.com/s/VLRAwsNNdX7Yvnxt-JVHFA)
+12. [Hands-on machine learning with scikit-learn keras and tensorflow (Highly Recommended for Scientists!)](https://www.knowledgeisle.com/wp-content/uploads/2019/12/2-Aur%C3%A9lien-G%C3%A9ron-Hands-On-Machine-Learning-with-Scikit-Learn-Keras-and-Tensorflow_-Concepts-Tools-and-Techniques-to-Build-Intelligent-Systems-O%E2%80%99Reilly-Media-2019.pdf)
 
 ### Running a stand-alone Python script
 Supposing your `helloworld.py` script has the following code.
