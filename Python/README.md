@@ -3,14 +3,14 @@
 [Core Python packages for Earth Science data](http://wiki.seas.harvard.edu/geos-chem/index.php/Python_tools_for_use_with_GEOS-Chem#Core_Python_packages_for_Earth_Science_data). Using [Google Colab](https://colab.research.google.com/) or [Jupyter Notebook provided by School of GeoSciences](https://www.geos.ed.ac.uk/notebook) to learn and practice.
 
 ### Good resources to follow
-1. [A Whirlwind Tour of Python](https://jakevdp.github.io/WhirlwindTourOfPython/)
+1. [A Whirlwind Tour of Python (Highly Recommended for Beginners!)](https://jakevdp.github.io/WhirlwindTourOfPython/)
 2. [Python Data Science Handbook (Highly Recommended for Scientists!)](https://jakevdp.github.io/PythonDataScienceHandbook/)
-3. [Scipy Lecture Notes (Highly Recommended for Scientists!)](http://scipy-lectures.org/index.html#)
+3. [Scipy Lecture Notes (Great supplement to Python Data Science Handbook!)](http://scipy-lectures.org/index.html#)
 4. [GEOSChem-python-tutorial](https://github.com/geoschem/GEOSChem-python-tutorial)
 5. [Classic statistics: Statsmodels](https://www.statsmodels.org/stable/index.html)
 6. [Bayesian statistics: PyMC](http://pymc-devs.github.io/pymc/)
 7. [Spatial modelling: PyAL](http://pysal.org/documentation)
-8. [xarray: N-D labeled arrays and datasets in Python (Highligh Recommended for Geoscientists!)](http://xarray.pydata.org/en/stable/index.html)
+8. [xarray: N-D labeled arrays and datasets in Python (Highly Recommended for Geoscientists!)](http://xarray.pydata.org/en/stable/index.html)
 9. [Intermediate Python](https://book.pythontips.com/en/latest/#)
 10. [Top 50 matplotlib Visualizations](https://www.machinelearningplus.com/plots/top-50-matplotlib-visualizations-the-master-plots-python/)
 11. [Cartopy Plotting Galleries](https://mp.weixin.qq.com/s/VLRAwsNNdX7Yvnxt-JVHFA)
