@@ -16,6 +16,8 @@
 11. [Cartopy Plotting Galleries](https://mp.weixin.qq.com/s/VLRAwsNNdX7Yvnxt-JVHFA)
 12. [Hands-on machine learning with scikit-learn keras and tensorflow (Highly Recommended for Scientists!)](https://www.knowledgeisle.com/wp-content/uploads/2019/12/2-Aur%C3%A9lien-G%C3%A9ron-Hands-On-Machine-Learning-with-Scikit-Learn-Keras-and-Tensorflow_-Concepts-Tools-and-Techniques-to-Build-Intelligent-Systems-O%E2%80%99Reilly-Media-2019.pdf)
 13. [Extending cmaps in matplotlib](https://github.com/hhuangwx/cmaps)
+14. [nbextensions](https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/install.html), [nbterm](https://blog.jupyter.org/nbterm-jupyter-notebooks-in-the-terminal-6a2b55d08b70)
+15. 
 
 ### Running a stand-alone Python script
 Supposing your `helloworld.py` script has the following code.
